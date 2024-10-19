@@ -1,7 +1,7 @@
 # Paradigms
 
-* [Programming paradigms](./contents/paradigms/Programming%20paradigms.md)
-* [OOP](programming/code/contents/paradigms/OOP.md)
+* [paradigms](paradigms.md)
+* [oop](programming/code/contents/paradigms/oop.md)
 
 
 # Coding languages

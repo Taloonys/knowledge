@@ -1,9 +1,4 @@
---- 
-
-<aside>
-💡 Определения и парадигмы из интернета я переписывать не буду… Но…
-
-</aside>
+💡 Определения парадигмыи  из интернета я переписывать не буду… Но…
 
 Полиморфизм - многоформенность некоторого метода или сущности, что за дичь, да?
 Есть статический полиморфизм и динамический. Рассмотри частный случай статического полиморфизма - перегрузки.
@@ -26,13 +21,13 @@ int Sum(const double a, const double b)
 
 [https://prog-cpp.ru/uml-classes/](https://prog-cpp.ru/uml-classes/)
 
-![uml-class-diagram-relationships.webp](uml-class-diagram-relationships.webp)
+![uml-class-diagram-relationships.webp](./image-storage/uml-class-diagram-relationships.webp)
 
 ## Inheritance
 
 > **Наследование →** ребёнок наследует возможности класса родителя
 
-![class-diagram-inheritance-example.webp](class-diagram-inheritance-example.webp)
+![class-diagram-inheritance-example.webp](./image-storage/class-diagram-inheritance-example.webp)
 
 ```java
 public class Car
@@ -49,7 +44,7 @@ public class Taxi extends Car { /* could run */ }
 
 > Реализация/Внедрение предполагает, что есть интерфейс класса, а его реализация находиться, например, в другом классе.. в основном используется для указания **связи между интерфейсами и классами реализации**
 
-![2.2.png](2.2.png)
+![2.2.png](./image-storage/2.2.png)
 
 ```java
 public interface IMovable { 
@@ -108,7 +103,7 @@ public class Car
 
 **Композиция** - отношение типа 'has a'… например, автомобиль содержит двигатель, двигатель **в полном подчинении** класса авто 
 
-![class-diagram-composition-example.webp](class-diagram-composition-example.webp)
+![class-diagram-composition-example.webp](./image-storage/class-diagram-composition-example.webp)
 
 ```java
 public class Human 
@@ -139,7 +134,7 @@ public class Body {
 
 Обычно ссылка не на сам класс, а не его интерфейс для гибкости.
 
-![2.4.png](2.4.png)
+![2.4.png](./image-storage/2.4.png)
 
 ```java
 public class Car
@@ -158,9 +153,8 @@ public class Engine
 ## Dependency
 
 > Зависимость подразумевает использование объекта одного класса другим классом.
-> 
 
-![class-diagram-dependency-example.webp](class-diagram-dependency-example.webp)
+![class-diagram-dependency-example.webp](./image-storage/class-diagram-dependency-example.webp)
 
 ```java
 public class Car
