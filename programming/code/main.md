@@ -1,10 +1,9 @@
 --- 
 # Paradigms
 
-* [Programming paradigms](Programming%20paradigms.md)
+* [Programming paradigms](./contents/paradigms/Programming%20paradigms.md)
 * [OOP](programming/code/contents/paradigms/OOP.md)
 
---- 
 # Coding languages
 
 [Languages wiki](Languages%20wiki.md)
