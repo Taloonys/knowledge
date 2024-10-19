@@ -1,10 +1,6 @@
-
----
 # Немного сложный для самого начала тутор (лекции ИТМО)
 
 [About & Links - C++ course notes](https://cpp-kt.github.io/cpp-notes/course.html)
-
----
 
 * [Introduction info](info.md)
 * [Base stuff](programming/code/contents/code-languages/cpp/contents/base-stuff.md)
@@ -30,7 +26,6 @@
 * STL (Standard Library)
 	* [Forbiden Stl functions ](forbiden-stl-functions.md)
 	* [Algorithms with STL](stl-algorithms.md)
----
 
 # Boost
 
@@ -39,13 +34,9 @@
     - shared memory
     - mapped object
 
----
-
 # GSL
 
 > Не уверен, что есть смысл описывать эту библиотеку, т.к. стандарты языка слегка изменились. Это некоторого рода имплементация С++ от Microsoft. Непосредственно относится к источнику ниже C++ CoreGuidelines.
-
----
 
 # ==Wonderful resources to learn from==
 
@@ -65,15 +56,12 @@ msu-cpp(Лекции с института Ломоносова) → Довол�
 
 [GitHub - mtrempoltsev/msu_cpp_lectures: C++ lectures](https://github.com/mtrempoltsev/msu_cpp_lectures/tree/master)
 
----
-
 # Doxygen
 
 Одно из средств документирования кода (потом может ещё сформироваться полезная документация на основе этого)
 
 https://www.doxygen.nl/manual/docblocks.html
 
----
 # CMake
 
 [CMake](cmake.md)
