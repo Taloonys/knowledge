@@ -15,7 +15,7 @@
 * [Logical/binary constant (+mutable)](logical-binary-immutability.md)
 * [Directives](directives.md)
 * [Generics/Templates](generics.md)
-* [[collections]]
+* [collections](contents/collections.md)
 * [Iterators](Iterators.md)
 * [POD-structures, standard layouts](pods-and-standard_layouts.md)
 * [Casting](cast.md)
@@ -25,7 +25,7 @@
 * [Macroses](macro.md)
 * [Rvalue/lvalue](rvalue-lvalue.md)
 * [RAII](raii.md)
-* [[idioms]]
+* [idioms](contents/idioms.md)
 * [Multithreading](multithreading.md)
 * STL (Standard Library)
 	* [Forbiden Stl functions ](forbiden-stl-functions.md)
