@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/code/contents/paradigms/oop.md",
+                "file": "programming/code/main.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "oop"
+              "title": "main"
             }
           }
         ]
@@ -177,6 +177,7 @@
   },
   "active": "f667322c73af2aff",
   "lastOpenFiles": [
+    "programming/code/contents/paradigms/oop.md",
     "programming/code/main.md",
     "programming/code/contents/paradigms/paradigms.md",
     "programming/system-design/main.md",
@@ -213,7 +214,6 @@
     "programming/system-design/image-storage/Untitled 2.png",
     "programming/system-design/contents/cache-strategy.md",
     "programming/system-design/image-storage/Untitled 1.png",
-    "Knowledge (Rus) 789151b6268a410cbb9b31d8fbc73b4a/Programming b5f0cc962d53416d8a6706bd33f61141/System design 356f5cba55624ed5a722d7e7539b8994/Надёжность f577328c6c3a4f81b4b74fc779730581.md",
     "programming/system-design/image-storage/Untitled.png",
     "System design 356f5cba55624ed5a722d7e7539b8994",
     "programming/system-design/image-storage",

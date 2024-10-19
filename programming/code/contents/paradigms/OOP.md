@@ -60,7 +60,7 @@ public class Car implements IMovable {
 
 ## Association
 
-![class-diagram-association-example.webp](class-diagram-association-example.webp)
+![class-diagram-association-example.webp](./image-storage/class-diagram-association-example.webp)
 
 **Ассоциация** - объект одного типа содержит или использует объект другого типа, отношения типа один ко многим
 
