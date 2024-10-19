@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/code/main.md",
+                "file": "programming/code/contents/paradigms/classes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "main"
+              "title": "classes"
             }
           }
         ]
@@ -177,8 +177,8 @@
   },
   "active": "f667322c73af2aff",
   "lastOpenFiles": [
-    "programming/code/contents/paradigms/oop.md",
     "programming/code/main.md",
+    "programming/code/contents/paradigms/classes.md",
     "programming/code/contents/paradigms/paradigms.md",
     "programming/system-design/main.md",
     "programming/code/contents/algorithms/contents/data-structures.md",
