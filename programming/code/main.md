@@ -1,16 +1,16 @@
 # Paradigms
 
-* [paradigms](paradigms.md)
-* [classes](classes.md)
+* [paradigms](paradigms/paradigms.md)
+* [classes](paradigms/classes.md)
 
 
 # Coding languages
 
-[languages-wiki](contents/code-languages/languages-wiki.md)
+[languages-wiki](code-languages/languages-wiki.md)
 ## ЯП:
 
-* [Assembler for finding `fixies`](/contents/code-languages/assembler/main.md)
-* [С++ frenzy](contents/code-languages/cpp/main.md)
+* [Assembler for finding `fixies`](code-languages/assembler/main.md)
+* [С++ frenzy](code-languages/cpp/0-main.md)
 ### Other languages
 > Most imperative languages are the same in general, so i wrote down some syntax for them, except Haskell, prb it would have more notes.
 
@@ -28,18 +28,18 @@
 
 # Code design patterns
 
-* [Creational design patterns](contents/design-patterns/creational-design-patterns.md)
-* [Structural design patterns](contents/design-patterns/structural-design-patterns.md)
-* [Behavioral design patterns](contents/design-patterns/behavioral-design-patterns.md)
-* [Some code design patterns](contents/design-patterns/some-code-patterns.md)
+* [Creational design patterns](design-patterns/1-creational-design-patterns.md)
+* [Structural design patterns](design-patterns/2-structural-design-patterns.md)
+* [Behavioral design patterns](design-patterns/3-behavioral-design-patterns.md)
+* [Some code design patterns](design-patterns/4-some-code-patterns.md)
 
 
 # Common concepts
 
-* [Building and Compiling](contents/common-concepts/main.md)
+* [Building and Compiling](common-concepts/main.md)
 
 
 # Other stuff
 
-* [vim](contents/other/vim.md)
-* [git](contents/other/git.md)
+* [vim](other/vim.md)
+* [git](other/git.md)

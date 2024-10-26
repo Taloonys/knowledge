@@ -35,4 +35,4 @@
 * Долгая реализация
 
 
-![Untitled](programming/code/contents/code-principles/image-storage/Untitled%201.png)
+![Untitled](../../code/code-principles/image-storage/Untitled%201.png)
