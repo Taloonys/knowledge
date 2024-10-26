@@ -16,14 +16,14 @@
 
 - **Транспонирование -** относительно главной диагонали ( на рисунке ниже это \ из 1 5 9 и 1 5 соответственно) происходит переворот значений
     
-    ![Untitled](programming/ml/image-storage/Untitled.png)
+    ![Untitled](image-storage/Untitled.png)
     
-    ![Untitled](programming/ml/image-storage/Untitled%201.png)
+    ![Untitled](image-storage/Untitled%201.png)
     
 
 **Тензор** - это некоторый математический или физический объект, описываемый более чем 2-мя измерениями совокупности данных.
 
-![Untitled](programming/ml/image-storage/Untitled%202.png)
+![Untitled](image-storage/Untitled%202.png)
 
 ---
 
