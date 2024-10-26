@@ -25,7 +25,7 @@
 2. concurrency может быть как на 1 ядре/потоке, так и быть параллельным на нескольких потоках.
 3. Вполне стандартным механизмом в таком случае является “переключение контекстов”.
 
-![image.png](programming/common-principles/image-storage/image.png)
+![image.png](image-storage/image.png)
 
 # Threads
 
