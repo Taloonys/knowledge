@@ -20,7 +20,8 @@ const sumContiguousArray = function(ary){
 	return lastItem * (lastItem + 1) / 2;
 }
 const nums = [1,2,3,4,5];
-const sumOfArray = sumContiguousArray(nums); ```
+const sumOfArray = sumContiguousArray(nums); 
+```
 
 Фактически операций не одна: нужно получить длину массива, получить последний элемент, выполнить умножение и деление. Разве это не O(3) или что-нибудь такое? В Big O нотации фактическое кол-во шагов не важно, важно что алгоритм выполняется за константное время, то есть это всё равно считается как O(1). Алгоритмы с константным временем это всегда O(1). Тоже и с линейными алгоритмами, фактически операций может быть O(n+5), в Big O нотации это O(n).
 
@@ -35,8 +36,8 @@ const sumOfArray = sumContiguousArray(nums); ```
 
 **Примеры времени для сложности алгоритмов:**
 
-![Untitled](../image-storage/Untitled%209.png)
+![Untitled](image-storage/Untitled%209.png)
 
 **Примеры оценки методов сортировки:**
 
-![Untitled](../image-storage/Untitled%2010.png)
+![Untitled](image-storage/Untitled%2010.png)

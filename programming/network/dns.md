@@ -1,9 +1,9 @@
 
 > Domain Name System
 
-![Untitled](programming/network/image-storage/Untitled%202.png)
+![Untitled](image-storage/Untitled%202.png)
 
-![Untitled](programming/network/image-storage/Untitled%201%201.png)
+![Untitled](image-storage/Untitled%201%201.png)
 
 # Subjects
 
