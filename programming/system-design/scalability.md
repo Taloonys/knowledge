@@ -9,7 +9,7 @@
 - **Вертикальная**
 - **Горизонтальная**
 
-![Untitled](programming/system-design/image-storage/Untitled%203.png)
+![Untitled](image-storage/Untitled%203.png)
 
 ## Вертикальная масштабируемость
 
