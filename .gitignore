@@ -1,2 +1,5 @@
-.vscode
-.trash
+.trash/
+
+.obsidian/
+
+.vscode/

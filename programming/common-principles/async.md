@@ -1,5 +1,3 @@
---- 
-
 # Usual anatomy
 
 ![Untitled](programming/common-principles/image-storage/Untitled%2015.png)
