@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/operation-systems/0-main.md",
+                "file": "programming/code/algorithms/graph.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0-main"
+              "title": "graph"
             }
           }
         ]
@@ -177,8 +177,11 @@
   },
   "active": "fd15c52264e12d46",
   "lastOpenFiles": [
-    "programming/operation-systems/process.md",
+    "programming/code/algorithms/data-structures.md",
+    "programming/code/algorithms/big-o-notation.md",
+    "programming/code/algorithms/0-main.md",
     "programming/operation-systems/0-main.md",
+    "programming/operation-systems/process.md",
     "programming/network/0-main.md",
     "programming/ml/0-main.md",
     "programming/common-principles/0-main.md",
@@ -202,9 +205,6 @@
     "programming/code/code-languages/cpp/exceptions.md",
     "programming/code/code-languages/languages-wiki.md",
     "programming/code/design-patterns/bridge.md",
-    "programming/code/design-patterns/builder.md",
-    "programming/code/code-languages/cpp/info.md",
-    "programming/code/code-principles/less-is-more.md",
     "programming/network/image-storage/Untitled.jpeg",
     "New Text Document.txt",
     "Knowledge (Rus) 789151b6268a410cbb9b31d8fbc73b4a",
