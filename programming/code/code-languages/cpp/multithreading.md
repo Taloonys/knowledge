@@ -30,7 +30,7 @@
 <aside>
 💡 Чуть больше про потоки:
 
-[Threads](threads.md)
+[Threads](../../../common-principles/threads.md)
 
 </aside>
 

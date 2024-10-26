@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/code/design-patterns/1-creational-design-patterns.md",
+                "file": "programming/operation-systems/0-main.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-creational-design-patterns"
+              "title": "0-main"
             }
           }
         ]
@@ -177,9 +177,14 @@
   },
   "active": "fd15c52264e12d46",
   "lastOpenFiles": [
+    "programming/operation-systems/process.md",
+    "programming/operation-systems/0-main.md",
+    "programming/network/0-main.md",
+    "programming/ml/0-main.md",
+    "programming/common-principles/0-main.md",
+    "programming/code/design-patterns/1-creational-design-patterns.md",
     "programming/code/design-patterns/3-behavioral-design-patterns.md",
     "programming/code/design-patterns/2-structural-design-patterns.md",
-    "programming/code/design-patterns/1-creational-design-patterns.md",
     "programming/code/design-patterns/4-some-code-patterns.md",
     "programming/code/code-principles/0-main.md",
     "programming/code/code-languages/cpp/0-main.md",
@@ -192,7 +197,7 @@
     "programming/code/paradigms/classes.md",
     "programming/code/contents/paradigms/main.md",
     "programming/code/paradigms/paradigms.md",
-    "programming/system-design/main.md",
+    "programming/system-design/0-main.md",
     "programming/code/code-languages/cpp/keywords.md",
     "programming/code/code-languages/cpp/exceptions.md",
     "programming/code/code-languages/languages-wiki.md",
@@ -200,12 +205,7 @@
     "programming/code/design-patterns/builder.md",
     "programming/code/code-languages/cpp/info.md",
     "programming/code/code-principles/less-is-more.md",
-    "programming/code/other/vim.md",
-    "programming/network/main.md",
     "programming/network/image-storage/Untitled.jpeg",
-    "programming/common-principles/main.md",
-    "programming/code/common-concepts/main.md",
-    "programming/code/algorithms/contents/data-structures.md",
     "New Text Document.txt",
     "Knowledge (Rus) 789151b6268a410cbb9b31d8fbc73b4a",
     "Generics Templates 68efd12a1f034e39a26b2780f523dd09",
