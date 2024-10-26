@@ -37,3 +37,13 @@
 | Read 1 MB sequentially from network   | 10,000,000 ns = 10 ms   |
 | Read 1 MB sequentially from disk      | 30,000,000 ns = 30 ms   |
 | Send packet CA->Netherlands->CA       | 150,000,000 ns = 150 ms |
+
+# Usual hardware restricts
+* HDD - write - 20...200 MB/s
+* SSD - write - 460..5000 MB/s (idk, could new gen SDD with 11k be used for that)
+
+# Speed measurements
+* Server throughput - RPS
+* DB throughput - QPS
+* Data throughput - B/s
+* Latency
