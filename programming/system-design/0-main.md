@@ -5,6 +5,7 @@
 
 # Основные принципы и сферы проектирования
 
+![[image-storage/Pasted image 20241026133425.png]]
 * [Масштабируемость](scalability.md)
 * [Доступность](availability.md)
 * [Надёжность](realiability.md)
@@ -21,6 +22,10 @@
 # Load calculating
 
 [All about service load calculating](load-calculating.md)
+
+# Terms
+* Data PipeLine -> https://www.youtube.com/watch?v=kGT4PcTEPP8
+* [CAP theorem](cap-theorem.md)
 
 # To-do
 - SOA (Service-Oriented Architecture)
