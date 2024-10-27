@@ -5,6 +5,7 @@
 * [Модель OSI](osi.md)
 * [Модель TCP/IP](tcpip.md)
 * [VPN](vpn.md)
+* [Proxy](proxy.md)
 
 **Источники**
 * [https://aws.amazon.com/ru/what-is/api/](https://aws.amazon.com/ru/what-is/api/)
