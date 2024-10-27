@@ -25,3 +25,6 @@
 # Types
 * [Relational](relationaldb.md)
 * [NoSQL](nosqldb.md)
+
+# Indexing
+# Query Optimization
