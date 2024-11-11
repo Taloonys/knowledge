@@ -2,6 +2,7 @@
 
 [About & Links - C++ course notes](https://cpp-kt.github.io/cpp-notes/course.html)
 
+# Оглавление
 * [Introduction info](info.md)
 * [Base stuff](base-stuff.md)
 * [Strings](strings.md)
