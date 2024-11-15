@@ -7,9 +7,11 @@
 
 ```cpp
 // .h
-class Dummy {
+class Dummy
+{
 	class PimplDummy;
-	PimplDummy* pImpl/
+	PimplDummy* pImpl;
+
 public:
 	explicit Dummy();
 	~Dummy();
@@ -21,13 +23,16 @@ public:
 
 ```cpp
 //.cpp
-Dummy::Dummy() : pImpl(new PimplDummy){}
+Dummy::Dummy()
+    : pImpl(new PimplDummy)
+{ }
 
-~Dummy()
-{	delete pImpl; }
+~Dummy() {
+  delete pImpl;                   // Очевидно, что это правильнее завернуть с unique ptr
+}
 
 doSth() {
-	pImpl->doSthSneaky(); //PimplDummy::doSthSneaky()
+	pImpl->doSthSneaky();     // PimplDummy::doSthSneaky()
 }
 ```
 
@@ -67,7 +72,7 @@ public:
 	{
 	    MyClass moved(std::move(rhs)); // получаем перемещаемый объект
 	    swap(moved);                   // выполняем обмен значениями
-	    return *this; // возвращаем текущий объект
+	    return *this;                  // возвращаем текущий объект
 	}
 	
 	void swap(Message& other) noexcept
