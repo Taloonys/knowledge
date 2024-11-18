@@ -9,4 +9,3 @@
 > There are 2 types of pipes:
 > - named -> determined by OS
 > - anonymous -> usually created for somekind of process, like command `cat` in Unix systems and etc.
-*great resource* -> https://csandker.io/2021/01/10/Offensive-Windows-IPC-1-NamedPipes.html
