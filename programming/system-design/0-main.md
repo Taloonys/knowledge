@@ -28,7 +28,7 @@
 * [CAP theorem](cap-theorem.md)
 
 # To-do
-- SOA (Service-Oriented Architecture)
+- SOA (Service-Oriented Architecture) vs Microservice vs Monolith
 - Domain-driven design
 - Event-driven подход
 - Distributed Storage
