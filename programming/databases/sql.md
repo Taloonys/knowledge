@@ -47,6 +47,11 @@ WHERE sec_column < 10.0 OR
 ### GROUP BY
 
 ### COUNT(...) AS ...
+> Запрос, меняющий название поля
+```sql
+SELECT title AS Название, author AS Автор
+FROM book;
+```
 
 ### HAVING
 

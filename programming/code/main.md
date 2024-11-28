@@ -6,11 +6,11 @@
 
 # Coding languages
 
-[languages-wiki](code-languages/languages-wiki.md)
+[languages-wiki](languages/languages-wiki.md)
 ## ЯП:
 
-* [Assembler for finding `fixies`](code-languages/assembler/main.md)
-* [С++ frenzy](code-languages/cpp/0-main.md)
+* [Assembler for finding `fixies`](languages/assembler/main.md)
+* [С++ frenzy](languages/cpp/0-main.md)
 ### Other languages
 > Most imperative languages are the same in general, so i wrote down some syntax for them, except Haskell, prb it would have more notes.
 
