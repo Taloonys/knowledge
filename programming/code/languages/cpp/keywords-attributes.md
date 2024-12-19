@@ -107,3 +107,65 @@ public:
 
 };
 ```
+
+# Attributes
+## noreturn
+> Означает, что функция не возвращает контроль (над потоком исполнения).
+```cpp
+[[noreturn]] void DoJob() {
+  throw std::runtime_exception{};
+}
+```
+- Ситуация с `return void` как раз таки возвращает управление из функции, т.е. этот атрибут нужен для функций, где в любом случае будет исключение, завершение программы и т.п.
+- Помогает добавить некоторые подсказки для мёртвого кода, например, когда после вызова такой функции есть что-то ещё
+
+## nodiscard
+> Означает, что нельзя пропустить возвращаемое значение
+```cpp
+[[nodiscard]] bool GetTrue() { return true; }
+
+int main() {
+  GetTrue();                // Error
+  auto b = GetTrue();       // Ok
+  std::ignore = GetTrue();  // A way to supress this attribute
+}
+```
+
+## maybe_unused
+> Позволяет указать и подавить варнинг о неиспользуемой переменной
+```cpp
+{
+  int b = 5;                         // warning about unused variable (or error if compiler flag enabled)
+  [[maybe_unused]] int c = 10;       // Ok
+
+  return;
+}
+```
+
+## fall_through
+> Указывает, что в switch-case блоке из одного случая мы позволяем провалиться в другой случай
+```cpp
+switch (value) {
+case 0:
+  DoJob();
+  [[fall_through]]         // We call `DoJob()` and then `return DoAnotherJob()`
+case 1:
+  return DoAnotherJob();
+default:
+  return;
+}
+```
+
+## likely, unlikely
+> C++20, помогает компилятору в разрешении **branch prediction**
+```cpp
+{
+  int a = 5;
+  if (a == 5) [[likely]] {
+    // ...
+  } else [[unlikely]] {
+    // ...
+  }
+}
+```
+https://en.cppreference.com/w/cpp/language/attributes/likely
