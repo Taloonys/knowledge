@@ -57,7 +57,7 @@ int FindMedianPos(const std::vector<int> nums, const int target) {
 	int high   = nums.size() - 1;
 
 	while (low <= high) {
-		cons int mid = (high + low) / 2;    // recalculate mid value everytime
+		const int mid = (high + low) / 2;    // recalculate mid value everytime
 		
 		if (nums[mid] == target)
 		    return mid;                     // if found
