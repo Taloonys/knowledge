@@ -62,10 +62,11 @@ int FindMedianPos(const std::vector<int> nums, const int target) {
 		if (nums[mid] == target)
 		    return mid;                     // if found
 		
-		if (nums[mid] < target) 
+		if (nums[mid] < target) {
 		    low = mid + 1;                  // drop numbers left from the mid value
-    else
-        high = mid - 1;                 // drop numbers right from the mid value
+                } else {
+                    high = mid - 1;                 // drop numbers right from the mid value
+                }
 	}
 	
 	return -1;                            // didn't found anything
