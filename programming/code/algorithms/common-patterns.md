@@ -69,7 +69,7 @@ int FindMedianPos(const std::vector<int> nums, const int target) {
                 }
 	}
 	
-	return -1;                            // didn't found anything
+	return -1;                                  // didn't find anything
 }
 
 
