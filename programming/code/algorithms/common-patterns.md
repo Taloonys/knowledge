@@ -50,26 +50,28 @@ public:
 ## Example when we know target value
 ```cpp
 int FindMedianPos(const std::vector<int> nums, const int target) {
-  if (nums.empty())                    // in case sequence is empty
-      return -1;                  
+  if (nums.empty()) {                        // in case sequence is empty
+      return -1;     
+   }             
 
-	int low    = 0;
-	int high   = nums.size() - 1;
+  int low    = 0;
+  int high   = nums.size() - 1;
 
-	while (low <= high) {
-		const int mid = (high + low) / 2;    // recalculate mid value everytime
+    while (low <= high) {
+  	const int mid = (high + low) / 2;    // recalculate mid value everytime
 		
-		if (nums[mid] == target)
-		    return mid;                     // if found
+ 	if (nums[mid] == target) {
+	    return mid;                     // if found
+        }
 		
-		if (nums[mid] < target) {
-		    low = mid + 1;                  // drop numbers left from the mid value
-                } else {
-                    high = mid - 1;                 // drop numbers right from the mid value
-                }
+	if (nums[mid] < target) {
+	    low = mid + 1;                  // drop numbers left from the mid value
+	} else {
+	    high = mid - 1;                 // drop numbers right from the mid value
 	}
+    }
 	
-	return -1;                                  // didn't find anything
+    return -1;                              // didn't find anything
 }
 
 
