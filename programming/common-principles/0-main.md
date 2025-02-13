@@ -1,4 +1,4 @@
-> Generally it's not a computer science cuz i ignore precise explanation in terms of bytes and etc
+> Generally it's not a computer science cuz i ignore precise explanation in terms of bytes and etc.
 
 **Contents**:
 * [Numeral systems](numeral-systems.md)
