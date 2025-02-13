@@ -1,3 +1,5 @@
+> Not sure how to struct it... 
+
 💡 1. Book → Evading EDR, The Defenitive Guide to Defeating Endpoint Detections System
 2. [https://attack.mitre.org/](https://attack.mitre.org/)
 3. [https://www.malwarearchaeology.com/](https://www.malwarearchaeology.com/)

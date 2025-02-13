@@ -5,6 +5,10 @@
 * [String and encoding](string-implementation.md)
 * [File semantics](files.md)
 * [Threads](threads.md)
+* [Operating Systems](operating-systems.md)
+* [Quantum Evaluations](quantum-evaluations.md)
+* [A bit about cyber-security](cyber-security.md)
+
 - [ ]  Computer science
     - [ ]  Битовые структуры, распределение и упаковка по байтам
     - [ ]  регистры, память, кэш, инструкции процессора

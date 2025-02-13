@@ -1,5 +1,5 @@
 
-![Untitled](programming/system-design/image-storage/Untitled.png)
+![Untitled](image-storage/Untitled.png)
 
 ---
 
