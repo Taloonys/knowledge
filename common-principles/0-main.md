@@ -8,6 +8,7 @@
 * [Operating Systems](operating-systems.md)
 * [Quantum Evaluations](quantum-evaluations.md)
 * [A bit about cyber-security](cyber-security.md)
+* [Bit logis & tricks](bit-logic.md)
 
 - [ ]  Computer science
     - [ ]  Битовые структуры, распределение и упаковка по байтам
