@@ -2,7 +2,7 @@
 * 0 - false
 
 # Upper bits
-![[image-storage/Pasted image 20250227165917.png]]
+![[resources/image-storage/Pasted image 20250227165917.png]]
 
 # AND (if both true)
 > Basicly: only if both true -> true 
@@ -22,17 +22,17 @@
 > 1 ^ 1 -> 0
 > 1 ^ 0, 0 ^ 1 -> 1
 
-![[image-storage/Pasted image 20250227165113.png]]
+![[resources/image-storage/Pasted image 20250227165113.png]]
 
 # Additional code
 * 00000011-> 3
 * 10000011 -> -3
-![[image-storage/Pasted image 20250227165625.png]]
+![[resources/image-storage/Pasted image 20250227165625.png]]
 
 # Decimal relation
 * 10001011 -> pow(1, 0) + pow(1, 1) + pow(0, 2) + pow(1, 3) + pow(0, 4) + pow(0, 5) + pow(0, 6) + pow(1, 7) = 11
 
-![[image-storage/Pasted image 20250227170028.png]]
+![[resources/image-storage/Pasted image 20250227170028.png]]
 
 # Flags
 > It's possible to store different states/flags inside 1 variable instead of any kind enumeration (enum)

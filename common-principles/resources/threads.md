@@ -5,7 +5,7 @@
 
 ## asynchronous programming
 > Подход при которым результат выполнения некоторых инструкций доступен не сразу после вызова, а лишь при получении некоторых event’ов/сигналов.
-> [Asynchronous programming](async.md)
+> [Asynchronous programming](resources/async.md)
 
 ## parallel programming
 > Подход, при котором выполнение кода происходит в параллельных потоках **одновременно**
@@ -20,7 +20,7 @@
 💡 Вытащить Арифметический блок отсюда*
 [The central processing unit (CPU): Its components and functionality](https://www.redhat.com/sysadmin/cpu-components-functionality)
 
-![image.png](image-storage/image.png)
+![image.png](resources/image-storage/image.png)
 
 # Threads
 > Поток - минимальная единица исполнения задачи. 
