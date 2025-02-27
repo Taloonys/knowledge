@@ -20,7 +20,7 @@
 💡 Вытащить Арифметический блок отсюда*
 [The central processing unit (CPU): Its components and functionality](https://www.redhat.com/sysadmin/cpu-components-functionality)
 
-![image.png](resources/image-storage/image.png)
+![image.png](image-storage/image.png)
 
 # Threads
 > Поток - минимальная единица исполнения задачи. 
