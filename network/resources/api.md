@@ -12,14 +12,14 @@ REST определяет набор функций, таких как GET, PUT,
 
 **Главной особенностью** [REST API](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest?pg=wianapi&cta=restapi) является то, что такая передача выполняется без сохранения состояния. Без сохранения состояния означает, что серверы не сохраняют клиентские данные между запросами. Клиентские запросы к серверу аналогичны URL-адресам, которые вы вводите в браузере для посещения веб-сайта. Ответ от сервера представляет собой простые данные без типичного графического отображения веб-страницы.
 
-![[image-storage/Pasted image 20241026174121.png]]
+![image-storage/Pasted image 20241026174121.png](image-storage/Pasted%20image%2020241026174121.png)
 
 # GraphQL
 > Задуманный как альтернатива REST API язык запросов для API-интерфейсов, позволяющий передавать данные сразу внутри запроса, т.е. не нужно создавать несколько REST-запросов. Чтобы извлечь данные, достаточно ввести один запрос
 
 https://help.reg.ru/support/servery-vps/oblachnyye-servery/ustanovka-programmnogo-obespecheniya/rukovodstvo-po-graphql#2
 
-![[image-storage/Pasted image 20241026174216.png]]
+![image-storage/Pasted image 20241026174216.png](image-storage/Pasted%20image%2020241026174216.png)
 # gRPC
 - [см RPC](rpc.md)
 > Написанная Google **альтернатива rpc**, где передаваемая процедура кладётся методами фреймворка в бинарный вид - **ProtoBuf'ы**, что значительно быстрее (10-20мс против 100-200мс с json/xml условно) + поддерживается разными языками программирования.
