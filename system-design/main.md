@@ -4,7 +4,7 @@
 
 # Основные принципы и сферы проектирования
 
-![[resources/image-storage/Pasted image 20241026133425.png]]
+![Pasted image 20241026133425](resources/image-storage/Pasted%20image%2020241026133425.png)
 * [Масштабируемость](resources/scalability.md)
 * [Доступность](resources/availability.md)
 * [Надёжность](resources/realiability.md)

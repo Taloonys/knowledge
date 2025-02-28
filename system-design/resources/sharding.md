@@ -8,9 +8,9 @@
 # Стратегии
 ## range-based
 > Основано на диапазоне ключей
-![[image-storage/Pasted image 20241027140222.png]]
+![Pasted image 20241027140222](image-storage/Pasted%20image%2020241027140222.png)
 ## directory-based
 > Работает по принципе DNS, есть центральный шард, который в случае чего, знает куда обратиться для получения нужных данных
-![[image-storage/lookup-based-sharding.webp]]
+![lookup-based-sharding](image-storage/lookup-based-sharding.webp)
 ## geographical
 > Основано на географическом местоположении пользователя запроса

@@ -2,6 +2,6 @@
 
 # БД
 Можно создавать как резервные копии
-![[image-storage/Pasted image 20241027140613.png]]
+![Pasted image 20241027140613](image-storage/Pasted%20image%2020241027140613.png)
 ... так и буквальную репликацию
-![[image-storage/Pasted image 20241027140701.png]]
+![Pasted image 20241027140701](image-storage/Pasted%20image%2020241027140701.png)

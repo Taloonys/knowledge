@@ -111,7 +111,7 @@ public:
 ## noreturn
 > Означает, что функция не возвращает контроль (над потоком исполнения).
 ```cpp
-[[noreturn]] void DoJob() {
+[noreturn](noreturn) void DoJob() {
   throw std::runtime_exception{};
 }
 ```
@@ -121,7 +121,7 @@ public:
 ## nodiscard
 > Означает, что нельзя пропустить возвращаемое значение
 ```cpp
-[[nodiscard]] bool GetTrue() { return true; }
+[nodiscard](nodiscard) bool GetTrue() { return true; }
 
 int main() {
   GetTrue();                // Error
@@ -135,7 +135,7 @@ int main() {
 ```cpp
 {
   int b = 5;                         // warning about unused variable (or error if compiler flag enabled)
-  [[maybe_unused]] int c = 10;       // Ok
+  [maybe_unused](maybe_unused) int c = 10;       // Ok
 
   return;
 }
@@ -147,7 +147,7 @@ int main() {
 switch (value) {
 case 0:
   DoJob();
-  [[fall_through]]         // We call `DoJob()` and then `return DoAnotherJob()`
+  [fall_through](fall_through)         // We call `DoJob()` and then `return DoAnotherJob()`
 case 1:
   return DoAnotherJob();
 default:
@@ -160,9 +160,9 @@ default:
 ```cpp
 {
   int a = 5;
-  if (a == 5) [[likely]] {
+  if (a == 5) [likely](likely) {
     // ...
-  } else [[unlikely]] {
+  } else [unlikely](unlikely) {
     // ...
   }
 }
