@@ -1,4 +1,4 @@
-![[resources/image-storage/PR-14648_image1.png]]
+![[image-storage/PR-14648_image1.png]]
 
 [сначала см. Модель OSI](resources/osi.md)
 # link layer 
@@ -13,16 +13,16 @@
 # application layer
 > Решается, как именно будет получаться дата через интернет, какими технологиями и как она предстанет перед пользователем
 
-![[resources/image-storage/Pasted image 20241026141341.png]]
+![[image-storage/Pasted image 20241026141341.png]]
 ## protocols
-![[resources/image-storage/Pasted image 20241026142511.png]]
+![[image-storage/Pasted image 20241026142511.png]]
 ### HTTP
 > **Hypertext transfer protocol**, серверу не нужно хранить никаких состояний, вся информации в сообщении, в сообщении так же указывается код состояния, направленный одностороннй протокол соединения.
-![[resources/image-storage/Pasted image 20241026143036.png]]
+![[image-storage/Pasted image 20241026143036.png]]
 
-![[resources/image-storage/Pasted image 20241026143148.png]]
+![[image-storage/Pasted image 20241026143148.png]]
 
-![[resources/image-storage/Pasted image 20241026143206.png]]
+![[image-storage/Pasted image 20241026143206.png]]
 
 ### Web sockets
 > Протокол двунаправленного канала связи, позволяющий поддерживать постоянную непрерывную передачу данных.

@@ -9,7 +9,7 @@
 * на отдельных региональных сервисах-серверах - CDN
 	* pull-based - если кэша у cdn нет, он пуллит кэш с оригинального сервера и отдаёт юзеру, используется для частого отображения неизменяемых данных
 	* push-based - cdn пушит свои данные на основной сервер, а тот уже раздаёт всем cdn эти данные
-![[resources/image-storage/Pasted image 20241026234554.png]]
+![[image-storage/Pasted image 20241026234554.png]]
 
 # Подходы/стратегии кэширования:
 ## Полное кэширование
@@ -58,4 +58,4 @@
 > Если запрашиваемые данные обнаружены в хранилище кэша - это называется **cache hit**, если нет - **cache miss**.
 > **cache ratio** - отношение **cache hits** к **cache hits + cache misses**
 
-![Untitled](resources/image-storage/Untitled%202.png)
+![Untitled](image-storage/Untitled%202.png)

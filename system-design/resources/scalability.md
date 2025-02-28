@@ -10,7 +10,7 @@
 
 **Масштабировать можно любой компонент системы, будь-то load-balancer'ы, базы данных, прокси и т.п.**
 
-![Untitled](resources/image-storage/Untitled%203.png)
+![Untitled](image-storage/Untitled%203.png)
 
 ## Вертикальная масштабируемость
 

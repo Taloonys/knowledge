@@ -1,17 +1,17 @@
 > **TCP** (**Transmission control protocol**) - протокол передачи данных, гарантирующий, что получатель точно принял целостные данные. 
 > Механизм TCP предварительно устанавливает соединение с получателем и отправляет данные, если же получатель как-то отвечает, что данные утеряны, то происходит повторная отправка данных. Случаи дублирования устраняются.
-![[resources/image-storage/Pasted image 20241026142016.png]]
+![[image-storage/Pasted image 20241026142016.png]]
 
 **Механизм TCP handshake** подразумевает как раз такие метод синхронизации между получателем и отправителем
-![[resources/image-storage/Pasted image 20241026142148.png]]
+![[image-storage/Pasted image 20241026142148.png]]
 
-![Untitled](resources/image-storage/Untitled.webp)
+![Untitled](image-storage/Untitled.webp)
 
-![Untitled](resources/image-storage/Untitled%201.webp)
+![Untitled](image-storage/Untitled%201.webp)
 
-![Untitled](resources/image-storage/Untitled%202.webp)
+![Untitled](image-storage/Untitled%202.webp)
 
-![Untitled](resources/image-storage/Untitled%203.webp)
+![Untitled](image-storage/Untitled%203.webp)
 
 Но если подтверждать получение каждого пакета, то на это будет 
 уходить очень много времени: при скорости сети в 100 мегабит в секунду 
@@ -31,7 +31,7 @@
 
 По умолчанию используется кумулятивное подтверждение, например, каждых 100 пакетов:
 
-![Untitled](resources/image-storage/Untitled%204.webp)
+![Untitled](image-storage/Untitled%204.webp)
 
 > **UDP** (**User Datagram Protocol**) - протокол передачи данных, гарантирующий, что каждая отдельно отправленная датаграмма будет передана в целостности. Датаграмма подразумевает собой пакет данных, отправка которых не требует упорядоченности или временной необходимости. Т.е. такие данные могут быть утеряны, дублироваться или приходить неупорядоченно.
 

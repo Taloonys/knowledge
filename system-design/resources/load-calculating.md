@@ -8,7 +8,7 @@
 > Под power - имеется в виду степень… степень 2^n. Т.е. (Power 10) → 2^10, что, к слову, равно 1024. 
 > Поэтому разрядность рассматривается не как 1, 1000, 1 000 000… А как 2, 2^10, 2^20 и т.п.
 
-![image.png](resources/image-storage/image.png)
+![image.png](image-storage/image.png)
 
 ## Bytes grade
 
