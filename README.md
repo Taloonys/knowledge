@@ -12,6 +12,6 @@
 
  # Designed in obsidian, but ok for just git reading
 * Settings for obsidian (It makes files readable in git raw markdown view)
-  - Options -> Files and Links -> Use [[Wikilinks]] -> "False"
+  - Options -> Files and Links -> Use [Wikilinks](Wikilinks) -> "False"
   - Options -> Files and Links -> New link format   -> "Relative path to file"
   - Options -> Editor          -> Advanced          -> Convert pasted HTML to Markdown -> "True"

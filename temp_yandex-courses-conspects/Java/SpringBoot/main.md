@@ -10,12 +10,15 @@
 * `sdkman` позволяет удобно выбирать тип используемой для сборки проекта `JDK`
 * `wrapper` позволяет при портирование проекта на другой ПК использовать maven для сборки с помощью скриптов (`mvnw`), не имея на этом ПК `maven`
 
-# IDK
-* Часто веб фреймворки и прочии утилиты ищут файл `index.html`, есть эдакое соглашение по которому данный файл принято считать точкой входа....
-
-# Аннотации
+# Dependency Injection
+> При запуске SpringBootApplication контейнер спринга проходит по всем сущностям с аннотациями (по типу @Bean, @Serivce и т.п.) и "регистрирует" все эти компоненты и помещает их туда, где это требуется... это называется **Dependency Injection**.
+## Argument injection
+## Constructor injection
+# Anotaitions
 ## Service
 ## Controller
 ## RestController
 > Controller, но содержит `ResponseBody` 
 ## RequestMapping
+## Autowired
+### ArgsConstruction
