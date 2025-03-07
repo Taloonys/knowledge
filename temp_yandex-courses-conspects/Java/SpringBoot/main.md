@@ -12,13 +12,5 @@
 
 # Dependency Injection
 > При запуске SpringBootApplication контейнер спринга проходит по всем сущностям с аннотациями (по типу @Bean, @Serivce и т.п.) и "регистрирует" все эти компоненты и помещает их туда, где это требуется... это называется **Dependency Injection**.
-## Argument injection
-## Constructor injection
-# Anotaitions
-## Service
-## Controller
-## RestController
-> Controller, но содержит `ResponseBody` 
-## RequestMapping
-## Autowired
-### ArgsConstruction
+
+* Список аннотаций обширный, можно ознакомиться тут: https://www.geeksforgeeks.org/spring-boot-annotations/

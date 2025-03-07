@@ -1,9 +1,1 @@
-> Any files here is a bad sign, that I'm mentally ill.
-> Frontend is cool, but this is an extra way or dead end for me#
-
-* UI - user interface
-- UX  principles - User eXperience  
-- CSS
-- HTML
-- CSV
-- json
+* Часто веб фреймворки и прочии утилиты ищут файл `index.html`, есть эдакое соглашение по которому данный файл принято считать точкой входа....
