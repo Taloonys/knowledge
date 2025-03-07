@@ -1,7 +1,7 @@
 * [IP/MAC/Gateway](resources/netbase.md)
 * [HTTP-запросы](resources/http.md)
 * [DNS](resources/dns.md)
-* [API](resources/api.md)
+* [API-context](resources/api.md)
 * [IP, TCP/UDP протоколы](resources/tcp-udp.md)
 * [Модель OSI](resources/osi.md)
 * [Модель TCP/IP](resources/tcpip.md)
