@@ -64,13 +64,6 @@ function sum(n1, n2) {
 do_sth()
 sum(1, 10);
 ```
-# Imports
-```js
-import defaultExport from "module-name";
-import * as name from "module-name";
-import { export1 } from "module-name";
-import { export1 as alias1 } from "module-name";
-```
 ## Стрелочные функции
 > Аналог лямбд
 
@@ -81,6 +74,13 @@ let summ = (a, b) => a + b;
 let print_array = (arr) => arr.forEach(element => {
     document.write(`${element}<br>`);
 });
+```
+# Imports
+```js
+import defaultExport from "module-name";
+import * as name from "module-name";
+import { export1 } from "module-name";
+import { export1 as alias1 } from "module-name";
 ```
 # Conditions
 * **Строгое равенство** `===` возвращает true, только если одиноковые типы и одиноковые значения
