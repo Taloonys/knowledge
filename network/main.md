@@ -1,4 +1,5 @@
 * [IP/MAC/Gateway](resources/netbase.md)
+* [HTTP-запросы](resources/http.md)
 * [DNS](resources/dns.md)
 * [API](resources/api.md)
 * [IP, TCP/UDP протоколы](resources/tcp-udp.md)
