@@ -3,41 +3,6 @@
 > - С динамической и слабой типизацией
 > [A bit about syntax](syntax.md)
 # Base
-## HTML (HyperText Markup Language)
-> Язык разметки, формирующий то, какие элементы отображаются на странице, т.е. декларирует структуру страницы.
-* Базовый пример html, который подключает скрипт на JS. 
-* Есть одинарные (самозакрывающиеся) тэги, пример: `meta`, `scipt`.
-* Есть парные тэги, пример: `head`, `body`.
-* .. И нет, нельзя парные и одинарные тэги взаимозаменять
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YourPageName</title>
-</head>
-<body>
-    <script src='main.js'></script>
-</body>
-</html>
-```
-> **Тэги форматирования html** -> https://htmlbase.ru/article/html-tegi-dlya-oformleniya-teksta
-
-Часто нужные (они все парные):
-* `<b>` - Bold text,
-* `<strong>` - Important text
-* `<i>` - Italic text
-* `<small>` - smaller text
-* `<del>`  - marked as deleted ~~example~~
-* `<u>` - mark text by line
-* `<mark>` - mark text by color
-* `<ul>` - from vertical list of element
-* `<li>` - mark like an option (like that `*` in `.md`)
-## CSS (Cascading Style Sheets) 
-> Язык разметки, отвечающий за внешнее оформление элементов (цвета, margin и т.п.)
-## JS (JavaScript)
-> ЯП, который отвечает за "динамику страницы", иногда может в бэкенд логику... (бывает такое).
 ## Rendering
 > Процесс генерации страницы из html, css, js и т.п. 
 > **Рендером занимается браузер**, у браузера есть свои **html-парсер**, **css-парсер** и **JavaScript-engine** (V8 - chrome, edge, node.js, SpiderMonkey - firefox, JavaScriptCore - Safari).
