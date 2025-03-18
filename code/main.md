@@ -8,4 +8,5 @@
 * [vim](other/vim.md)
 * [git](other/git.md)
 * [docker](docker.md)
+* [nginx](other/nginx.md)
   

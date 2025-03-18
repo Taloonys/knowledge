@@ -26,7 +26,6 @@
 ## Команды
 > https://docs.docker.com/reference/dockerfile/
 > Из важного: FORM, WORKDIR, COPY, RUN, EXPOSE, ARG, ENV, VOLUME
-
 ## Optimization
 ## multi-staged build
 > TODO
@@ -36,7 +35,7 @@
 **Понятный пример:** 
 (стащил отсюда https://github.com/SuchkovDenis/docker-compose-demo/tree/master)
 ```yaml
-# version: "3.8"
+# version: "3.8"                             # В старых версиях надо указывать
 
 services:
 
