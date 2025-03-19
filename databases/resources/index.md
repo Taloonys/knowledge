@@ -15,7 +15,25 @@ ON books (genre);
 * Стоит их использовать там, где эти данные чаще читают (`WHERE`, `ORDER BY`, `GROUP BY`)
 * Не стоит использовать на маленькие таблицы
 * Полезные в `JOIN` операциях
+* У индексов есть ограничение на размерность в разных СУБД
+```sql
+CREATE INDEX [book_genre_index]
+ON books (genre, photo, rating);
+-- если колонны genre + photo превышают, например, 1700 байт (MySQL) в общей сложности
+-- .. то на rating не будет создан индекс
+```
 * Не стоить их использовать для столбцов, где много `NULL` данных
+* Если создали композитный индекс, то ускорение запроса по обращению к одному из этой пачки индексов будет только для первого по порядку поля
+```sql
+CREATE INDEX [phone_charstx_idx]
+ON [phones] (type, os, cpu)
+
+-- ...
+WHERE os = "Android" -- index won't work!
+
+-- ...
+WHERE type = "Sensor" -- index is working
+```
 # Index clusterisation
 > В некоторых СУБД есть такая концепция кластеризации индексов...
 ## Clustered index

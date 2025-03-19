@@ -5,7 +5,7 @@
 
 Одна из причин, почему лучше будет назвать MVC в некотором смысле парадигмой, а не архитектурой заключается в том, что, например,  в веб разработке MVC-архитектура может быть преобразована в MVP, как пример:
 
-![Untitled](image-storage/Untitled%202.png)
+![Untitled](image-storage/Untitled%202%201.png)
 
 ### MVC-архитектура (Model-View-Controller)
 
@@ -17,7 +17,7 @@
 
 Часто в веб-разработке можно увидеть уведомление Model’ом View об изменения отображаемой информации через делегат Controller, но это, по идеи, уже почти MVP-архитектура. Как я уже говорил это всё плавающие реализации MVC-парадигмы.
 
-![Untitled](image-storage/Untitled%203.png)
+![Untitled](image-storage/Untitled%203%201.png)
 
 ### MVVM-архитектура (Model-View-ViewModel)
 
@@ -29,7 +29,7 @@
 
 В качестве **binding** здесь имеется в виду, что при изменение данных пользователем на view - происходит ровно такое же изменение данных на viewmodel, на изменение данных viewmodel реагирует model, при этом изменение данных на viewmodel также приводит к изменению данных на view, таким образом образовывается двухстороння связь между View и ViewModel.
 
-![Untitled](image-storage/Untitled%204.png)
+![Untitled](image-storage/Untitled%204%201.png)
 
 ### MVP-архитектура (Model-View-Presenter)
 
@@ -41,6 +41,6 @@
 
 Отличие от MVC в том, что Model отправляет сигнал об обновлении View через делегата Presenter, в котором обычно содержится интерфейс взаимодействия с UI - IVIew. В том время как в MVC сигнал об обновлении UI происходит напрямую через обращение к View.
 
-![Untitled](image-storage/Untitled%205.png)
+![Untitled](image-storage/Untitled%205%201.png)
 
 ![Untitled](image-storage/Untitled%206.png)

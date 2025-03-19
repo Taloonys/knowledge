@@ -30,7 +30,8 @@
 * Сложные и/или крупные операции
 * Довольно легко интегрировать из-за "фиксированной структуры"
 # Ключевые механизмы
+* [SQL](sql.md)
 * [Транзакции](transactions.md)
 * [Индексы](index.md)
-* Query Optimization
-* For share, for update, блокировки
+* [Query optimisations practice](query-optimisation.md)
+* [Query locks](locs.md)

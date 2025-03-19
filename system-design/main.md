@@ -15,9 +15,7 @@
 * [Масштабируемое управление данными](resources/scaling-data-control.md)
 
 - [ ]  Оптимизация производительности
-
----
-
+* [MVC](resources/mvc.md)
 # Load calculating
 
 [All about service load calculating](resources/load-calculating.md)
