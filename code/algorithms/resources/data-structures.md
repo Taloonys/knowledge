@@ -14,7 +14,7 @@
 * [Hash-table](hash-table.md)
 * [Trees](tree.md)
 * [Graphs](graph.md)
-* Linked list / Deque / Queue / Stack
+* [Linked list](linked-list.md)/ Deque / Queue / Stack
   
 
 # Hash ring
