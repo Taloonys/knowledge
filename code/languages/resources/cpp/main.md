@@ -19,7 +19,7 @@
 * [Functional objects and handling](resources/functional.md)
 * [Operators overriding](resources/operators-overriding.md)
 * [Exceptions](resources/exceptions.md)
-* [Macroses](resources/macro.md)
+* [Macro](resources/macro.md)
 * [Rvalue/lvalue](resources/rvalue-lvalue.md)
 * [RAII](resources/raii.md)
 * [idioms](resources/idioms.md)

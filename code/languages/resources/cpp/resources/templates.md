@@ -269,11 +269,40 @@ C c;
 C c1(c); // -> would be used template copy constructor
 ```
 
+# Fold expressions
+> Выражение свёртки, позволяет применять операции ко всему variadic pack'у (это вот `Args...`)
+> Несколько конструкций см. тут: https://en.cppreference.com/w/cpp/language/fold 
+
+Самый очевидный пример:
+```cpp
+template<typename... Args>
+auto sum(Args... args) {
+    return (args + ...);           // <--
+}
+
+int main() {
+    std::cout << sum(1, 2, 3, 4);  // вернёт 10
+}
+```
+
+Довольно необычный пример:
+```cpp
+/* Чтобы читаемее было конкретно тут */
+using std::forward;
+using std::visit;
+
+(visit(visiter, variant_t(forward<Entities>(entities))), ...)
+//
+// Будет равносильно:
+//
+visit(visiter, variant_t<Entities...>(forward(ent1))),
+visit(visiter, variant_t<Entities...>(forward(ent2))),
+visit(visiter, variant_t<Entities...>(forward(ent3)));
+```
+* `,` в С++ возвращает последний второй операнд (после запятой)
 # Concepts (C++20)
-
-> Вот прям всё, что нужно знать про них - вся глава 14
-
-[concepts](https://metanit.com/cpp/tutorial/17.1.php)
+>Вот прям всё, что нужно знать про них - вся глава 14
+>[concepts](https://metanit.com/cpp/tutorial/17.1.php)
 
 # Ellipsis …
 💡 ellipsis - (по англ.) - многоточие используется для переменного кол-ва аргументов

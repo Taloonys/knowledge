@@ -3,6 +3,23 @@
 
 [Git - Documentation](https://git-scm.com/doc)
 * **Хочется знать больше про аргументы?** - см. `git <any command> help`
+# Useful features
+## Abort successful rebase
+* Если сделал rebase и "случайно" успешно его завершил, но не хотел. 
+* То можно использовать 
+```bash
+git reset --hard ORIG_HEAD.
+```
+* `ORIG_HEAD` обычно является "сейв поинтом" до выполнения одиночной команды
+## Backup tag
+* Перед множественными махинациями с веткой можно делать бэкап таг
+```bash
+git tag BACKUP
+```
+* Если настал момент откатиться:
+```bash
+git reset --hard BACKUP
+```
 # Base commands
 ## Basic concepts
 ### sha
