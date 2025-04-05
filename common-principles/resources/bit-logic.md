@@ -36,10 +36,9 @@
 
 # Flags
 > It's possible to store different states/flags inside 1 variable instead of any kind enumeration (enum)
-
 ## Check if flag is on (AND operator)
 > `mask & flag != 0`
-```
+```c
 flag1 = 0x0110100        // random flag value
 mask  = 0x0000010        // mask for checking if 0x0000010 flag is set
 
@@ -52,11 +51,10 @@ if (mask & flag1 != 0)
 else
 	return ERROR;
 ```
-
 ## Modify flag
 ### Add flag (OR operator)
 > `flag |= FLAG_MASK` or `flag = flag | FLAG_MASK`
-```
+```c
 flag1      = 0x0110100        // random flag value
 FLAG_MASK  = 0x0000010        // mask for checking if 0x0000010 flag is set
 
@@ -71,9 +69,8 @@ if (FLAG_MASK & flag1 != 0)
 	   0x0000010 // != 0, flag was changed succesfully
 	return SUCCESS;
 ```
-
 ### Drop flag (XOR operator)
-```
+```c
 flag1      = 0x0110110        // random flag value
 FLAG_MASK  = 0x0000010        // mask for checking if 0x0000010 flag is set
 
@@ -90,19 +87,18 @@ else
 	   0x0000000 // 0= 0, flag was changed succesfully
 	return ERROR;
 ```
-
 # Shift
 * binary `>>`, mostly it's equal to `multiply or divide by power of 2` + it would be rounded to the less value
-```
+```c
     00001000 >> 1 = 00000100 // 8 >> 1 = 4
 	11 >> 1 = 5              // to less value
 ```
 * logical `>>>`
-```
+```c
     01000001 <<< 1 = 10000010 //  65 <<< 1 = 130
     10000001 >>> 1 = 01000000 // 129 >>> 1 = 64
 ```
 * cyclic   `>>>>`,  same as binary, but bits from *edged positions* are moved (aka in cycle) to the opposite *edge*, `unsigned only operation`
-```
+```c
     00001001 >> 1 = 10000100 // 9 >> 1 = 132
 ```
