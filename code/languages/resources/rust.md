@@ -11,7 +11,7 @@
 * Запрещены неявные касты
 * Тут метапрограммирование плотно завязано на трейтах и дженериках.
 * Документации: 
-	*  (ru) https://doc.rust-lang.ru/stable/nomicon/intro.html 
+	* (ru) https://doc.rust-lang.ru/stable/nomicon/intro.html 
 	* (en) https://doc.rust-lang.org/nomicon/
 * быстро по синтаксису: https://github.com/Taloonys/languages-basic-syntax/tree/main/rust
 # Files & scopes
@@ -71,4 +71,23 @@ src
 │   ├── another_nested.rs
 │   └── mod.rs
 └── main.rs
+```
+# Testing
+>Тесты собираются отдельными крейтами, поэтому зависимости билда в них уже не работают
+# Base
+## Operator ?
+>Укороченная обработка "проброса" ошибки или результата дальше
+```rust 
+fn transfer_string() -> Result<String, i32> {
+	get_string()?                              // внимание на оператор ?
+}
+
+// равносильно:
+
+fn transfer_string() -> Result<String, i32> {
+	match get_string() {
+		Result::Ok { String, _ } => Ok(String),
+		Result::Error { _, i32 } => Error(i32)
+	}
+}
 ```
