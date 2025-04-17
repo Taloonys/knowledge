@@ -43,6 +43,8 @@ auto funci = (f_funci)GetProcAddress(hGetProcIDDLL, "funci");
 //
 funci();
 ```
+* Этот механизм возможен в винде, но он не обязателен, есть некоторые параметры экспорта, по которым можно обойтись без него (например функции без манглинга `__declspec(dllexport)`)
+	* mangle - `add(int, int)` -> `__Z3addii`
 ### Linux
 > На фоне windows...
 * Все символы содержатся также в `.so` и в секции **ELF** (Executable and Linkable Format)
