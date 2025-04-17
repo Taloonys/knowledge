@@ -22,10 +22,5 @@
     - [ ]  deflations
     - [ ]  images
     - [ ]  video
-    - [ ]  Program stack ?
-	    - Функции
-        - Передачи параметров
-        - Кадры функции
-        - Возврат
         
 [Segmentation Fault (распределение памяти компьютера)](https://habr.com/ru/companies/nix/articles/277759/)
