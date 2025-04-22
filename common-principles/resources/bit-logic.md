@@ -63,7 +63,8 @@ flag1 |= FLAG_MASK;
 |  0x0000010
    0x0110110 // changed third (from right) bit
 
-if (FLAG_MASK & flag1 != 0)
+// checking if  flag is set
+if (!(flag1 & FLAG_MASK))   // result != 0
 	   0x0110110
 	&  0x0000010
 	   0x0000010 // != 0, flag was changed succesfully

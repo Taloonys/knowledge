@@ -1,5 +1,6 @@
-*  [languages-wiki](languages/languages-wiki.md)
+*  [languages-wiki](languages-wiki.md)
 * [A bit of Assembler](resources/assembler/main.md)
-* [С++ frenzy](languages/resources/cpp/main.md)
+* [С++ frenzy](resources/cpp/main.md)
+* [Python](resources/python.md)
 * [Rust](resources/rust.md)
 * [Python/Go/Haskell/Kotlin/Rust](https://github.com/Taloonys/languages-basic-syntax)
