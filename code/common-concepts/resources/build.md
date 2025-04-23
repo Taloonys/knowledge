@@ -9,5 +9,5 @@
 - **Installation** - сборка файлов в указанного рода библиотеки и исполняемые файлы
 # Механизмы создания исполняемого кода
 * [Compilation](resources/compilation.md)
-* Interpretation
-* JIT-compilation
+* [Interpretation](resources/interpretation.md)
+* [JIT-compilation](resources/jit.md)
