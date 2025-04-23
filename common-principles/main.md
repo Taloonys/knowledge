@@ -8,6 +8,7 @@
 * [File semantics](resources/files.md)
 * [Threads](resources/threads.md)
 * [Operating Systems](resources/operating-systems.md)
+* [Credentials & User rights](resources/user-control.md)
 # idk
 * [Quantum Evaluations](resources/quantum-evaluations.md)
 * [A bit about cyber-security](resources/cyber-security.md)
@@ -22,10 +23,5 @@
     - [ ]  deflations
     - [ ]  images
     - [ ]  video
-    - [ ]  Program stack ?
-	    - Функции
-        - Передачи параметров
-        - Кадры функции
-        - Возврат
         
 [Segmentation Fault (распределение памяти компьютера)](https://habr.com/ru/companies/nix/articles/277759/)

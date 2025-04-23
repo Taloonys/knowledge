@@ -21,3 +21,7 @@
 > There are 2 types of pipes:
 > - named -> determined by OS
 > - anonymous -> usually created for somekind of process, like command `cat` in Unix systems and etc.
+# Windows
+ * LPC / ALPC
+# Linux 
+* D-Bus
