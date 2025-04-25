@@ -25,3 +25,5 @@
     - [ ]  video
         
 [Segmentation Fault (распределение памяти компьютера)](https://habr.com/ru/companies/nix/articles/277759/)
+
+* Чё-т про арифметический блок [The central processing unit (CPU): Its components and functionality](https://www.redhat.com/sysadmin/cpu-components-functionality)
