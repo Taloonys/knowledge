@@ -1,3 +1,0 @@
-- Service Locator
-- Repository
-- Сущность-Атрибут-Значение
