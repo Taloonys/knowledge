@@ -1,5 +1,6 @@
 > Generally it's not a computer science cuz i ignore precise explanation in terms of bytes and etc.
 # Basics
+* [Terminal & bash commands](resources/bash.md)
 * [PATH and env variables](resources/envs.md)
 * [Numeral systems](resources/numeral-systems.md)
 * [String and encoding](resources/string-implementation.md)

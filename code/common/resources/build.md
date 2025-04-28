@@ -8,6 +8,6 @@
     - Генератором является некоторый протокол формирования такого рода файлов для конкретных платформ
 - **Installation** - сборка файлов в указанного рода библиотеки и исполняемые файлы
 # Механизмы создания исполняемого кода
-* [Compilation](resources/compilation.md)
-* [Interpretation](resources/interpretation.md)
-* [JIT-compilation](resources/jit.md)
+* [Compilation](compilation.md)
+* [Interpretation](interpretation.md)
+* [JIT-compilation](jit.md)

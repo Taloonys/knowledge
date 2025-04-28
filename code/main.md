@@ -1,7 +1,7 @@
 # Оглавление
 * [Algorithms](algorithms/main.md)
-* [Principles](code-principles/main.md)
-* [Common logic](common-concepts/main.md)
+* [Principles](principles/main.md)
+* [Common logic](common/main.md)
 * [Design patterns](design-patterns/main.md)
 * [Languages](languages/main.md)
 # Other stuff
