@@ -9,13 +9,13 @@
 Операции с матрицами:
 
 - **Транспонирование -** относительно главной диагонали ( на рисунке ниже это \ из 1 5 9 и 1 5 соответственно) происходит переворот значений
-    ![Untitled](image-storage/Untitled.png)
+    ![Untitled](resources/image-storage/Untitled.png)
     
-    ![Untitled](image-storage/Untitled%201.png)
+    ![Untitled](resources/image-storage/Untitled%201.png)
     
 **Тензор** - это некоторый математический или физический объект, описываемый более чем 2-мя измерениями совокупности данных.
 
-![Untitled](image-storage/Untitled%202.png)
+![Untitled](resources/image-storage/Untitled%202.png)
 # Ряды
 > **Математически** это некоторый упорядоченный ряд чисел, который, очевидно, можно описать однозначно определённой формулой.
 

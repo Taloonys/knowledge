@@ -11,7 +11,7 @@
 - с частичным привлечением учителя
 - с подкреплением
 
-[Math Basic](math.md)
+[Math Basic](resources/math.md)
 # Courses
 * https://mlcourse.ai/book/index.html
 * https://dlcourse.ai/

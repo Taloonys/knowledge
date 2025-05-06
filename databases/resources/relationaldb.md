@@ -35,5 +35,5 @@
 * [Индексы](index.md)
 * [Query optimisations practice](query-optimisation.md)
 * [Query locks](locs.md)
-* TODO: Оконные функции
-* TODO: SQL Инъекции
+* [Оконные функции](window-functions.md)
+* [SQL injections](sql-injections.md)

@@ -7,6 +7,7 @@
 # Other stuff
 * [vim](other/vim.md)
 * [git](other/git.md)
-* [docker](docker.md)
+* [docker](other/docker.md)
 * [nginx](other/nginx.md)
+* [k8s или -> kubernetes](other/k8s.md)
   
