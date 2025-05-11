@@ -1,6 +1,7 @@
 # Оглавление
-* [JavaScript](js-core/main.md)
-* [React](react/main.md)
+ * [Микрофронтенды](resources/microfronts.md)
+* [JavaScript](resources/js.md)
+* [React](resources/react.md)
 * Vue
 # Base
 ## HTML (HyperText Markup Language)

@@ -1,7 +1,7 @@
 > **JavaScript**:
 > - Мультипарадигменный (Императивный, прототипное ООП, ФП)
 > - С динамической и слабой типизацией
-> [A bit about syntax](syntax.md)
+> [A bit about syntax](js-syntax.md)
 # Base
 ## Rendering
 > Процесс генерации страницы из html, css, js и т.п. 
