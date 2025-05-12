@@ -1,5 +1,3 @@
---- 
-
 # Important numbers to know
 
 ## Powers of 2
