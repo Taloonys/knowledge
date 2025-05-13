@@ -12,7 +12,7 @@
 	* Apigee
 * Документирование
 	* Swagger
-	* OpenAPI
+	* OpenAPI or AsyncAPI
 * Проверка запросов
 	* Postman
 * Веб сервера
