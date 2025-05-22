@@ -1,7 +1,5 @@
 # Немного сложный для самого начала тутор (лекции ИТМО)
-
 [About & Links - C++ course notes](https://cpp-kt.github.io/cpp-notes/course.html)
-
 # Оглавление
 * [Introduction info](resources/info.md)
 * [Base stuff](resources/base-stuff.md)
@@ -27,44 +25,34 @@
 * STL (Standard Library)
 	* [Forbiden Stl functions ](resources/forbiden-stl-functions.md)
 	* [Algorithms with STL](resources/stl-algorithms.md)
-
+---
 # Boost
-
 - boost::asio
 - boost::interprocess
     - shared memory
     - mapped object
 
 # GSL
-
 > Не уверен, что есть смысл описывать эту библиотеку, т.к. стандарты языка слегка изменились. Это некоторого рода имплементация С++ от Microsoft. Непосредственно относится к источнику ниже C++ CoreGuidelines.
 
 # ==Wonderful resources to learn from==
 
-**Google style code** → Очень приближен к нормальному код стайлу за исключением некоторых моментов для поддержки старыми компиляторами, но от этого стоит базово отталкиваться
+* ***Google style code** → Очень приближен к нормальному код стайлу за исключением некоторых моментов для поддержки старыми компиляторами, но от этого стоит базово отталкиваться
+	* [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html#Self_contained_Headers)
 
-[Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html#Self_contained_Headers)
+* ***Git.CoreGuidelines** → Материал с полезными советами (некоторые не однозначные, многое для аккуратности, но она не везде нужна)
+	* [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 
-**Git.CoreGuidelines** → Материал с полезными советами (некоторые не однозначные, многое для аккуратности, но она не везде нужна)
+* ***Cpp-kt(Лекции с кафедры ИТМО)** → упомянуто после оглавления (важно, что рассматриваются некоторые краеугольные случаи или внутренности чего-то)
+	* [About & Links - C++ course notes](https://cpp-kt.github.io/cpp-notes/course.html)
 
-[C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
-
-**Cpp-kt(Лекции с кафедры ИТМО)** → упомянуто после оглавления (важно, что рассматриваются некоторые краеугольные случаи или внутренности чего-то)
-
-[About & Links - C++ course notes](https://cpp-kt.github.io/cpp-notes/course.html)
-
-msu-cpp(Лекции с института Ломоносова) → Довольно обширный (с точки рассмотрения, но не описания) материал. **В основном, много (довольно понятного) кода**
-
-[GitHub - mtrempoltsev/msu_cpp_lectures: C++ lectures](https://github.com/mtrempoltsev/msu_cpp_lectures/tree/master)
-
+* msu-cpp(Лекции с института Ломоносова) → Довольно обширный (с точки рассмотрения, но не описания) материал. **В основном, много (довольно понятного) кода**
+	* [GitHub - mtrempoltsev/msu_cpp_lectures: C++ lectures](https://github.com/mtrempoltsev/msu_cpp_lectures/tree/master)
 # Doxygen
 Одно из средств документирования кода (потом может ещё сформироваться полезная документация на основе этого)
-
-https://www.doxygen.nl/manual/docblocks.html
-
+* https://www.doxygen.nl/manual/docblocks.html
 # CMake
 [CMake](resources/cmake.md)
-
 # Когда мы видим С...
 > Довольно часто приходится переписывать или взаимодействовать с С кодом с его ужасной философией древних времён. Стоит помнить некоторые моменты при взаимодейтсвии с ним.
 
@@ -98,3 +86,8 @@ char* p   = (int*)cur++;
 # Precompiled header
 > `.h` файлы не попадают в компиляцию, только `.c`, `.cpp`, существует древний трюк для ускорения компиляции - скомпилировать хэдер заранее, дабы при перекомпиляции некоторых других `.c/.cpp` файлов все эти неизменённые хэдеры не перекомпилировались повторно. Такие файлы помечаются как `.pch` (PreCompiledHeader), но есть и другие варианты вроде...
 https://en.wikipedia.org/wiki/Precompiled_header
+# Opaque pointer
+> Opaque - прозрачный. Суть метода заключается в, например, объявлении указателя на структуру, у которой нет реализации в нашем контексте.
+> Например клиент кода видит эту дичь `typedf struct Structure* str_ptr_t`, а описания Structure нигде нет, он может сам указать описание, а может это описание где-то в другом контексте сокрыто.
+* https://stackoverflow.com/questions/7553750/what-is-an-opaque-pointer-in-c
+* В С++ под похожее определение попадает идиома *Pimpl*, в хэдере указан указатель на какой-то внутренний тип, а всё его описание где-то внутри cpp.
