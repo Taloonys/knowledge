@@ -1,13 +1,9 @@
---- 
-
 > Фабричный метод - это паттерн, который определяет интерфейс для создания объектов некоторого класса, но непосредственное решение о том, объект какого класса создавать происходит в подклассах. То есть паттерн предполагает, что базовый класс делегирует создание объектов классам-наследникам
 
 # Субъекты
 
 ## Abstract creator
-
 > некоторый абстрактный класс (интерфейс) с методом, в теории должен уметь создавать и возвращать объект (или управление на него)
-> 
 
 ```rust
 class IShapeFactory
@@ -18,9 +14,7 @@ class IShapeFactory
 ```
 
 ## **Concrete Creator**
-
 > конкретный подкласс, содержащий реализацию метода (описанного выше) с созданием конкретных объектов
-> 
 
 ```rust
 class CircleFactory final : public IShapeFactory
@@ -41,9 +35,7 @@ class SquareFactory final : public IShapeFactory
 ```
 
 ## **Abstract Product**
-
 > некоторый интерфейс уже создаваемого Creater'ом объекта
-> 
 
 ```cpp
  class IShape
@@ -56,9 +48,7 @@ class SquareFactory final : public IShapeFactory
 ```
 
 ## **Concrete Product**
-
 > конкретный класс с реализацией методов объекта, создаваемого Creator'ом
-> 
 
 ```cpp
 class Circle final : public IShape
@@ -79,9 +69,7 @@ class Square final : public IShape
 ```
 
 ## **Client**
-
 > некоторый внешний юзер, который использует интерфейс Creator, чтобы создать какой-то объект (из набора разных) и с помощью интерфейса Abstract Product может с ним взаимодействовать
-> 
 
 ```cpp
 int main()
@@ -101,7 +89,6 @@ int main()
 ```
 
 # Details
-
 Таким образом, можно представить случай, что человек просто выбирает, что нужно создать:
 
 ```cpp
@@ -123,18 +110,19 @@ shape.draw();
 В идеале, вместо switch-case можно делать контейнер (индекс вызываемого объекта - способ его создания).. или любой другой способ реализации, это не сильно важно.
 
 ```cpp
-enum EShapes
-{
+using namespace std; // для читаемости
+
+enum EShapes {
 	kCircle,
 	kSquare,
 };
 
-std::unordered_map<EShapes, IShapeFactory> factory_map;
+unordered_map<EShapes, IShapeFactory> factory_map;
 
-factory_map.insert(kCircle, std::make_unique<CircleFactory>());
-factory_map.insert(kSquare, std::make_unique<SquareFactory>());
+factory_map.insert(kCircle, make_unique<CircleFactory>());
+factory_map.insert(kSquare, make_unique<SquareFactory>());
 
-std::getline(std::cin, input_shape);
+getline(std::cin, input_shape);
 assert(factory_map.contains(input_shape));
 auto shape = factory_map[input_shape].createShape();
 shape.craw();
@@ -142,15 +130,12 @@ shape.craw();
 ```
 
 Таким образом, чтобы программа умела создавать разного рода объекты, достаточно добавить класс для создания объекта и сам объект, добавить его в перечень создаваемых объектов (if-else, switch-case, container), и использовать новой объект так же, как и другие.
-
 ## Нюансы
-
 - Такие объекты потом сложно связывать между собой (передача данных между ними)
 - Конкретно данная реализация фабрики подразумевает использование лишь одного "семейства" интефрейсов
 - Некоторые ЯП имеет проблемы с run-time perfomance при использовании подобного паттерна
 
 ## Use-cases
-
 - Когда заранее неизвестно, объекты каких типов необходимо создавать
 - Когда система должна быть независимой от процесса создания новых объектов и расширяемой: в нее можно легко вводить новые классы, объекты которых система должна создавать.
 - Когда создание новых объектов необходимо делегировать из базового класса классам наследникам

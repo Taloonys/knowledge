@@ -14,6 +14,7 @@
 	* (ru) https://doc.rust-lang.ru/stable/nomicon/intro.html 
 	* (en) https://doc.rust-lang.org/nomicon/
 * быстро по синтаксису: https://github.com/Taloonys/languages-basic-syntax/tree/main/rust
+* **ВАЖНО** На линуксе нельзя писать `sudo cargo ...`, иначе исчезнут все права
 # Files & scopes
 ## Crate
 >Минимальная единица компиляции, lib.rs - библиотечный crate, main.rs - исполняемый крейт
