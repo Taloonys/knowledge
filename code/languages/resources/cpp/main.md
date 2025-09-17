@@ -98,3 +98,16 @@ char* p   = (int*)cur++;
 # Precompiled header
 > `.h` файлы не попадают в компиляцию, только `.c`, `.cpp`, существует древний трюк для ускорения компиляции - скомпилировать хэдер заранее, дабы при перекомпиляции некоторых других `.c/.cpp` файлов все эти неизменённые хэдеры не перекомпилировались повторно. Такие файлы помечаются как `.pch` (PreCompiledHeader), но есть и другие варианты вроде...
 https://en.wikipedia.org/wiki/Precompiled_header
+# double ptr philosophy
+```cpp
+void Function(int** buffer) {
+	if (*buffer == nullptr) {
+		*buffer = new int[size];
+	}
+}
+
+int* ptr = nullptr;
+Function(ptr);
+// ptr now point to buffer
+delete[ptr], ptr = nullptr;
+```

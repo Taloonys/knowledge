@@ -1,11 +1,11 @@
 > Generally it's not a computer science cuz i ignore precise explanation in terms of bytes and etc.
 # Basics
 * [Terminal & bash commands](resources/bash.md)
-* [PATH and env variables](resources/envs.md)
 * [Numeral systems](resources/numeral-systems.md)
 * [String and encoding](resources/string-implementation.md)
 * [Bit logic & tricks](resources/bit-logic.md)
 # OS
+* [PATH and env variables](resources/envs.md)
 * [File semantics](resources/files.md)
 * [Threads](resources/threads.md)
 * [Operating Systems](resources/operating-systems.md)

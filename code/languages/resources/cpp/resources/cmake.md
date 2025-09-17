@@ -120,3 +120,7 @@ target_compile_definitions(tgt PRIVATE
 
  $<$<BOOL:${UNIX}>:rt> # если UNIX система, тогда извлекаем rt библу
 ```
+## что за in файлы
+> Есть такая команда как configure_file(), в ней передаётся шаблон и файл, формируемый на основе шаблона, так вот на каком-нибудь configure-project.in.cmake будет создан configure-project.cmake, а все переменные вида `@CONFIGURE_TYPE@` будут заменены прям переменными
+## что за cmake папка?
+> В ней обычно лежат cmake файлы вспомогательные, которые что-то да описываю, а подключаются они в CMakeLists.txt с помощью `include(cmake/somescript)`

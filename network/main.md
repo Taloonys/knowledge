@@ -8,6 +8,11 @@
 * [https://aws.amazon.com/ru/what-is/api/](https://aws.amazon.com/ru/what-is/api/)
 * [https://www.atlassian.com/ru/microservices/microservices-architecture](https://www.atlassian.com/ru/microservices/microservices-architecture)
 # FAQ
+# CGI, fast CGI, mod_php
+> Топик историческая терминология
+* **CGI** - так выглядел древний интернет, запускался бинарь, а его вывод трансилороваться html в веб браузер. Если юзер оставляет сообщение, то его сообщение отправлялось, например, серверу, сохранялось в переменные среды и потом бинарник перезапускался с этим новым сообщением, считанным из переменной среды.
+* **fast CGI** - примерно то же самое, но логика считывания из, условно, переменной среды теперь была в цикле
+* **mod_php** - нововведение в html, можно было встраивать php код прямо в html, куски с кодом назывались модулями
 ## NAT vs Bridged vs Host only
 ![](resources/image-storage/Pasted%20image%2020250418125405.png)
 ### NAT (Network Address Translation)
