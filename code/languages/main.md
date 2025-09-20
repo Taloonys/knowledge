@@ -3,4 +3,5 @@
 * [С++ frenzy](resources/cpp/main.md)
 * [Python](resources/python.md)
 * [Rust](resources/rust.md)
+* [Go](resources/golang.md)
 * [Python/Go/Haskell/Kotlin/Rust](https://github.com/Taloonys/languages-basic-syntax)
