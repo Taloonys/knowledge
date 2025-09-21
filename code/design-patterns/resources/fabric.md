@@ -5,7 +5,7 @@
 ## Abstract creator
 > некоторый абстрактный класс (интерфейс) с методом, в теории должен уметь создавать и возвращать объект (или управление на него)
 
-```rust
+```cpp
 class IShapeFactory
 {
 	virtual std::unique_ptr<IShape> CreateShape() = 0; // C++ mechanic for owning
@@ -16,7 +16,7 @@ class IShapeFactory
 ## **Concrete Creator**
 > конкретный подкласс, содержащий реализацию метода (описанного выше) с созданием конкретных объектов
 
-```rust
+```cpp
 class CircleFactory final : public IShapeFactory
 {
 	std::unique_ptr<IShape> Create() override 

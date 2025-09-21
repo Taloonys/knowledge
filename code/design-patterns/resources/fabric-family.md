@@ -1,7 +1,7 @@
 > Реализаций фабрик несколько, хотя по сути разница между ними лишь в уровне абстракций, но всё же опишу их:
 
 - Simple Fabric
-* [Fabric](resources/fabric.md)
+* [Fabric](fabric.md)
 * [Abstract fabric](resources/abstract-fabric.md)
 - Static fabric
 ### Common uses

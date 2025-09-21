@@ -4,5 +4,5 @@
 * [Builder](builder.md)
 * [Prototype](prototype.md)
 * [Singleton](singleton.md)
-- Object pool
+- [Object pool](object-pool.md)
 - Fluent Builder
