@@ -5,3 +5,6 @@
 * [Data structures](resources/data-structures.md)
 * [Common patterns](resources/common-patterns.md)
 
+# Real cases
+* LRU Cache
+
