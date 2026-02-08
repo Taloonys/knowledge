@@ -1,12 +1,12 @@
 # Networks map
-- [Overview](../network/main.md)
+- [Overview](../src/network/network.md)
 - **Models and base**
-  - [Network base](../network/resources/netbase.md)
-  - [OSI model](../network/resources/osi.md)
-  - [TCP/IP model](../network/resources/tcpip.md)
+  - [Network base](../src/network/netbase.md)
+  - [OSI model](../src/network/osi.md)
+  - [TCP/IP model](../src/network/tcpip.md)
 - **Entities and communication**
-  - [Entities and services](../network/resources/network-entities.md)
-  - [Web communication](../network/resources/web-communication.md)
+  - [Entities and services](../src/network/network-entities.md)
+  - [Web communication](../src/network/web-communication.md)
 - **See also**
   - [System design map](SYSTEM_DESIGN.md)
   - [Databases map](DATABASES.md)

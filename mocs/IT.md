@@ -6,5 +6,5 @@
 - [Networks map](NETWORK.md) - OSI/TCP-IP, entities, web communication
 - [Machine learning map](ML.md) - math and ML notes
 - [Game dev map](GAMEDEV.md) - game-specific notes
-- [Common computing basics](../common/main.md)
+- [Common computing basics](../src/common/common.md)
 - [Useful links](../useful-links.md)

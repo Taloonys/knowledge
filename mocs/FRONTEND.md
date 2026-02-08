@@ -1,11 +1,11 @@
 # Frontend map
-- [Overview](../frontend/main.md)
+- [Overview](../src/frontend/frontend.md)
 - **Frameworks and patterns**
-  - [React](../frontend/resources/react.md)
-  - [Microfrontends](../frontend/resources/microfronts.md)
+  - [React](../src/frontend/react.md)
+  - [Microfrontends](../src/frontend/microfronts.md)
 - **Language links**
-  - [JavaScript notes](../code/languages/resources/js.md)
-  - [JS syntax quicklist](../code/languages/resources/js-syntax.md)
+  - [JavaScript notes](../src/code/languages/js.md)
+  - [JS syntax quicklist](../src/code/languages/js-syntax.md)
 - **See also**
   - [Programming map](PROGRAMMING.md)
   - [System design map](SYSTEM_DESIGN.md)

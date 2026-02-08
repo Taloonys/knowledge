@@ -1,9 +1,9 @@
 > Навигацию по MOC смотри в `mocs/INDEX.md`
 
-* [Про коддинг](code/main.md)
-* [Общие концепты](common/main.md)
-* [Базы данных](databases/main.md)
-* [План Б, дальше только only fans](frontend/main.md)
-* [Машинное обучение](ml/main.md)
-* [Интернет/сети](network/main.md)
-* [System Design](system-design/main.md)
+* [Про коддинг](src/code/code.md)
+* [Общие концепты](src/common/common.md)
+* [Базы данных](src/databases/databases.md)
+* [План Б, дальше только only fans](src/frontend/frontend.md)
+* [Машинное обучение](src/ml/ml.md)
+* [Интернет/сети](src/network/network.md)
+* [System Design](src/system-design/system-design.md)

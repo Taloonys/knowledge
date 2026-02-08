@@ -1,17 +1,17 @@
 # Programming map
-- [Code home](../code/main.md)
+- [Code home](../src/code/code.md)
 - **Core topics**
-  - [Algorithms](../code/algorithms/main.md)
-  - [Languages](../code/languages/main.md)
-  - [Design patterns](../code/design-patterns/main.md)
-  - [Principles](../code/principles/main.md)
-  - [Runtime / internals](../code/common/main.md)
+  - [Algorithms](../src/code/algorithms/algorithms.md)
+  - [Languages](../src/code/languages/languages.md)
+  - [Design patterns](../src/code/design-patterns/design-patterns.md)
+  - [Principles](../src/code/principles/principles.md)
+  - [Runtime / internals](../src/code/common/common.md)
 - **Tooling**
-  - [Git](../code/other/git.md)
-  - [Docker](../code/other/docker.md)
-  - [Kubernetes](../code/other/k8s.md)
-  - [Nginx](../code/other/nginx.md)
-  - [Vim](../code/other/vim.md)
+  - [Git](../src/code/other/git.md)
+  - [Docker](../src/code/other/docker.md)
+  - [Kubernetes](../src/code/other/k8s.md)
+  - [Nginx](../src/code/other/nginx.md)
+  - [Vim](../src/code/other/vim.md)
 - **See also**
   - [Frontend map](FRONTEND.md)
   - [System design map](SYSTEM_DESIGN.md)

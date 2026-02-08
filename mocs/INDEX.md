@@ -7,7 +7,7 @@
 - [Networks map](NETWORK.md)
 - [Machine learning map](ML.md)
 - [Game dev map](GAMEDEV.md)
-- [Common computing basics](../common/main.md)
+- [Common computing basics](../src/common/common.md)
 - [Non-IT / misc knowledge](COMMON.md)
 - [Useful links](../useful-links.md)
 - [Legacy entrypoint](../main.md)

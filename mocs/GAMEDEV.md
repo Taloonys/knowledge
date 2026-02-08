@@ -1,5 +1,5 @@
 # Game dev map
-- [Overview](../gamedev/main.md)
-- [Anti-cheat](../gamedev/resources/anitcheat.md)
+- [Overview](../src/gamedev/gamedev.md)
+- [Anti-cheat](../src/gamedev/anitcheat.md)
 - **See also**
   - [Programming map](PROGRAMMING.md)

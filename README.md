@@ -6,15 +6,14 @@
 # Navigation (MOC-first)
 - Start at `mocs/INDEX.md` for the vault map.
 - `mocs/IT.md` links all tech areas (programming, system design, DB, frontend, network, ML, gamedev).
-- `mocs/COMMON.md` keeps non-IT topics; `common/main.md` keeps computing basics.
+- `mocs/COMMON.md` keeps non-IT topics; `src/common/common.md` keeps computing basics.
 - Links stay as standard markdown (`[name](route.md)`) to stay git-friendly.
 
 # Structured like...
-- every single dir has:
-   - `main.md` files -> start "any navigation" from them!
-   * `resources` dir which countains: 
-	   * bunch of `.md` files with info
-	   - `image-storage` dir for images only
+- all notes live in `src/` (programming, system-design, db, frontend, network, ML, etc.)
+- `mocs/` holds navigation maps (MOCs).
+- `images/` is flat; files are prefixed with their topic (e.g., `images/system-design__*.png`).
+- topic entry files are named after their area (e.g., `src/databases/databases.md`, `src/code/code.md`); individual notes live alongside them.
 
  # Designed in obsidian, but ok for just git reading
 * Settings for obsidian (It makes files readable in git raw markdown view)

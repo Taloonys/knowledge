@@ -1,17 +1,17 @@
 # Databases map
-- [Overview](../databases/main.md)
+- [Overview](../src/databases/databases.md)
 - **SQL and models**
-  - [SQL basics](../databases/resources/sql.md)
-  - [Relational DBs](../databases/resources/relationaldb.md)
-  - [NoSQL](../databases/resources/nosqldb.md)
+  - [SQL basics](../src/databases/sql.md)
+  - [Relational DBs](../src/databases/relationaldb.md)
+  - [NoSQL](../src/databases/nosqldb.md)
 - **Performance and storage**
-  - [Indexes](../databases/resources/index.md)
-  - [Query optimisation](../databases/resources/query-optimisation.md)
-  - [Window functions](../databases/resources/window-functions.md)
+  - [Indexes](../src/databases/index.md)
+  - [Query optimisation](../src/databases/query-optimisation.md)
+  - [Window functions](../src/databases/window-functions.md)
 - **Correctness**
-  - [Transactions](../databases/resources/transactions.md)
-  - [Locks](../databases/resources/locs.md)
-  - [SQL injections](../databases/resources/sql-injections.md)
+  - [Transactions](../src/databases/transactions.md)
+  - [Locks](../src/databases/locs.md)
+  - [SQL injections](../src/databases/sql-injections.md)
 - **See also**
   - [System design map](SYSTEM_DESIGN.md)
   - [Programming map](PROGRAMMING.md)
