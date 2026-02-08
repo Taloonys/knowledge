@@ -3,6 +3,25 @@
 
 ## Субъекты
 
+Мини-пример (Python):
+```python
+class Image:
+    def __init__(self, path): self.path = path
+    def show(self): print("render", self.path)
+
+class LazyImage:
+    def __init__(self, path): self.path = path; self._real=None
+    def show(self):
+        if not self._real: self._real = Image(self.path)  # отложенная загрузка
+        self._real.show()
+
+img = LazyImage("heavy.png")
+img.show()  # создастся только при первом вызове
+```
+
+# Когда полезно
+- Ленивая инициализация тяжёлых объектов.
+- Логирование/кеширование/контроль доступа перед настоящим объектом.
 ### Subject
 
 - Представляет собой общий интерфейс для Proxy и RealSubject
