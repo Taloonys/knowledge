@@ -4,4 +4,5 @@
 * [Python](resources/python.md)
 * [Rust](resources/rust.md)
 * [Go](resources/golang.md)
+* [JS](resources/js.md)
 * [Python/Go/Haskell/Kotlin/Rust](https://github.com/Taloonys/languages-basic-syntax)

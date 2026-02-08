@@ -148,6 +148,24 @@ volumes:                                    # все тома (volumes) надо
 ```
 * `docker compose up --build` - из папки с `docker-compose.yaml` собираем+запускаем нашу пачку докерфайлов
 * `docker compose up` - запустить уже собранный пак
+## yaml
+* docker yaml поддерживает якоря, для этого пишется `x-<имя>: &<имя>`, создаётся **extension-field**, который сам по себе скипается при запуске, а по `&` уже создаётся якорь, который уже потом можно упомянуть...
+```yaml
+	x-airflow-common: &airflow-common
+  build:
+    context: ./airflow
+    dockerfile: Dockerfile
+    
+    #...
+    
+services:
+  airflow-webserver:
+    <<: *airflow-common   # ← insert whole block under anchor `airflow-common`
+    ports:
+      - "8080:8080"
+    command: webserver
+```
+
 # network
 > По умолчанию docker compose, например, создаёт сеть и шарит её на все контейнеры внутри. Можно не делать для нескольких контейнеров compose и просто создать такую же сеть вручную.
 

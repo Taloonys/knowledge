@@ -1,6 +1,6 @@
 # Оглавление
  * [Микрофронтенды](resources/microfronts.md)
-* [JavaScript](resources/js.md)
+* [длинная отсылка к JavaScript](../code/languages/resources/js.md)
 * [React](resources/react.md)
 * Vue
 # Base

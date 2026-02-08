@@ -1,12 +1,17 @@
+# Переменные
 * Синтаксис, прям почти во всём С-подобный, поэтому каких-то уточнений по нему не будет.
-* Не затенения переменных
+* Способы объявления переменных:
+	* **var** - **просто объявление**, затеняет прошлые переменные без ошибок
+	* **const** - **константы**, нельзя повторно присвоить
+	* **let** - как var, но на **попытки затенения переменных выдаёт ошибку**
 ```js
 let value = 666;
 let value = 2;    // error
 ```
 * Есть сборщик мусора
 # Data structures
-* **Массивы** - по факту динамические `tuple`.
+## Массивы
+> по факту динамические `tuple`.
 ```js
 let default_array = [1, 2, 3];
 default_array.shift();         // 2 3
@@ -14,21 +19,117 @@ default_array.unshift(9);      // 9 2 3
 default_array.push(9);         // 9 2 3 9
 
 let tuple_like_array = [1, "text", false, { key: "value" }];
+
+let copy_array = [...default_array]  // it's called a spread operator
 ```
-* **Objects** - это вот прям структура
+## Objects
+ > это вот прям структура, + half-OOP
+ 
+ > Все объекты по умолчанию являются прототипами **Object**
+ 
+ * Примитивный объект с функцией
 ```js
-let obj = { id: 1, person: "Valera" };
+let obj = { 
+	id: 1, 
+	person: "Valera" 
+	sayId: function() { return "My id is " + this.id; }  // aka class method
+};
+
 alert(obj.person);
 ```
-* **Map** - стандартная мапа, но в одной и той же мапе ключи могут быть любыми типами...
+* Объект с конструктором
+	* **new оператор** автоматически заставляет **конструктор возвращать себя как объект**
+```js
+function Dog(name, color) {              // aka constructor
+  this.name = name;
+  this.color = color;
+  this.numLegs = 4;
+}
+
+let terrier = new Dog("Willy", "white")   // object construction
+```
+
+* Можно проверять, что объект создался именно нашим конструктором
+```js
+// verify that obj is build by this constructor
+terrier instanceof Dog;                   // true   
+```
+
+* Можно проверять свойства через **Object.hasOwnProperty()**
+```js
+// check properties
+for (let property in terrier) {
+  if (terrier.hasOwnProperty(property)) {
+    console.log(property);
+  }
+}        
+```
+## Map
+> стандартная мапа, но в одной и той же мапе ключи могут быть любыми типами...
 ```js
 let map = new Map();
 map.set("name", "Alice");
 map.set(1, "dummy");
 ```
-* **Set** - вполне стандартный set
+## Set
+> вполне стандартный set
 ```js
 let set = new Set([1, 2, 3, 3, 4]);   // set -> 1 2 3 4
+```
+### Прототипы и свойства
+> **Прототип** - это **объект, который служит «резервным хранилищем» свойств и методов** для других объектов.
+> **Свойство** - поля объекта, к которым можно обращаться, которые можно задавать и т.п.
+
+* НЕ РЕКОМЕНДОВАННЫЙ СПОСОБ ЗАДАНИЯ ПРОТОТИПА, сама по себе **смена** прототипа у объекта - долгая операция для движка 
+```js
+const dog = { bark: function() { return "uwu"; } };
+
+let terrier = { name: "Willy" };
+Object.setPrototypeOf(terrier, dog);
+```
+* Способ через голый объект
+```js
+const terrier = Object.create(dog);
+terrier.name = "Willy";
+```
+* Способо через установку протатипа "ребёнку"
+```js
+function Animal() { }
+
+Animal.prototype = {
+  constructor: Animal,
+  eat: function() {
+    console.log("nom nom nom");
+  }
+};
+
+function Dog() { }
+
+Dog.prototype = Object.create(Animal.prototype);
+let beagle = new Dog();
+```
+* Классический ООП-шный (это пока не ООП*)
+	* Если будет много Dog'ов, то все будут ссылаться на одно и то же свойство `bark` прототипа
+```js
+fucntion Dog(name) {
+	this.name = name;
+}
+
+Dog.prototype.bark = function() { return "[" + this.name + " said]: uwu"; }
+
+let terrier = new Dog("Willy");
+terrier.bark();
+```
+* Проверка на прототип
+```js
+function Dog(name) {
+  this.name = name;
+}
+ 
+let beagle = new Dog("Snoopy");
+  
+// Only change code below this line
+Dog.prototype.isPrototypeOf(beagle);  // true
 ```
 # Строки
 > Строки описываются всеми 3-мя способами ` `` `, `""`, `''`.
@@ -105,7 +206,6 @@ console.log(rabbit.eats);      // true
 Однако ничего не мешает делать как обычно:
 ```js
 class Animal {
-
     constructor(name) {
         this.name = name;
     }
@@ -116,7 +216,6 @@ class Animal {
 }
 
 class Dog extends Animal {
-
     speak() {
         console.log(`${this.name} barks.`);
     }
