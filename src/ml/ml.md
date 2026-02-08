@@ -1,3 +1,8 @@
+---
+tags: [ml]
+aliases: [Введение]
+---
+
 > idk even when i would like to touch it...
 
 # Введение

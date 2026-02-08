@@ -1,3 +1,8 @@
+---
+tags: [common]
+aliases: [Basics]
+---
+
 > Generally it's not a computer science cuz i ignore precise explanation in terms of bytes and etc.
 # Basics
 * [Terminal & bash commands](bash.md)

@@ -1,3 +1,8 @@
+---
+tags: [code, algorithms]
+aliases: [Find longest polyndrome in string]
+---
+
 # Find longest polyndrome in string
 > Специализированный алгоритм, который позволяет решить проблему за О(n)
 > [link](https://en.wikipedia.org/wiki/Longest_palindromic_substring#Manacher's_algorithm)

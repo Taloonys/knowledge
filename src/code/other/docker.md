@@ -1,3 +1,8 @@
+---
+tags: [code, other]
+aliases: [Base]
+---
+
 * link -> https://habr.com/ru/articles/804323/, многие примеры и темы с этого источника
 * чуть ближе к физическим объяснениям: https://www.youtube.com/watch?v=t4PEoHAvf1A
 * для терминологии: **registry** - грубо говоря хаб, откуда выкачиваются образы или иного рода ресурсы.

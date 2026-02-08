@@ -1,3 +1,8 @@
+---
+tags: [network]
+aliases: [DNS]
+---
+
 # DNS
 > Domain Name System
 ![Untitled](../../images/network__Untitled%201%201.png)

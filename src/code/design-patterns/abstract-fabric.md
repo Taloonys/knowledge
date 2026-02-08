@@ -1,3 +1,8 @@
+---
+tags: [code, design-patterns]
+aliases: [Subjects]
+---
+
 
 ---
 

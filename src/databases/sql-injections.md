@@ -1,3 +1,8 @@
+---
+tags: [databases]
+aliases: [sql injections]
+---
+
 **Пример**:
 * Вводим логин и пароль -> `admin` и `1234` соответственно
 * Сайт обычно делает косвенно запрос в БД пользователей `SELECT * FROM users WHERE login = 'admin' AND password '1234'`

@@ -1,3 +1,8 @@
+---
+tags: []
+aliases: [main]
+---
+
 > Навигацию по MOC смотри в `mocs/INDEX.md`
 
 * [Про коддинг](src/code/code.md)

@@ -1,3 +1,8 @@
+---
+tags: [system-design]
+aliases: [Important numbers to know]
+---
+
 # Important numbers to know
 
 ## Powers of 2

@@ -1,3 +1,8 @@
+---
+tags: [common]
+aliases: [Windows]
+---
+
 # Windows
 
 # RPC

@@ -1,3 +1,8 @@
+---
+tags: [common]
+aliases: [navigation]
+---
+
 * Windows -> only for **Powershell** (some flags aren't working)
 * Linux -> by default
 # navigation

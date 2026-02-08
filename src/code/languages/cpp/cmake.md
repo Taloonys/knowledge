@@ -1,3 +1,8 @@
+---
+tags: [code, languages, cpp]
+aliases: [How to]
+---
+
 --- 
 
 # How to

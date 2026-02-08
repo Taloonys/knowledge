@@ -1,3 +1,8 @@
+---
+tags: [code]
+aliases: [Оглавление]
+---
+
 # Оглавление
 * [Algorithms](algorithms/algorithms.md)
 * [Principles](principles/principles.md)

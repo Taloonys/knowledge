@@ -1,3 +1,8 @@
+---
+tags: [frontend]
+aliases: [Оглавление]
+---
+
 # Оглавление
  * [Микрофронтенды](microfronts.md)
 * [длинная отсылка к JavaScript](../code/languages/js.md)

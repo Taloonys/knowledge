@@ -1,9 +1,15 @@
-> **SOLID** — это аббревиатура пяти основных принципов проектирования в объектно‑ориентированном программировании, сформулированных Робертом Мартином.
-> **S** - Single responsibility (SRP),
-> **O** - Open-closed (OCP), 
-> **L** - Liskov substitution (LSP), 
-> **I** - Interface segregation (ISP),
-> **D** - Dependency inversion (DIP).
+---
+tags: [code, principles]
+aliases: [Single responsibility — принцип единственной ответственности]
+---
+
+> [!info] SOLID
+> Пять принципов проектирования в ООП (Роберт Мартин):  
+> **S** — Single Responsibility (SRP)  
+> **O** — Open-Closed (OCP)  
+> **L** — Liskov Substitution (LSP)  
+> **I** — Interface Segregation (ISP)  
+> **D** — Dependency Inversion (DIP)
 
 # Single responsibility — принцип единственной ответственности
     

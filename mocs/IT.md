@@ -1,3 +1,8 @@
+---
+tags: [mocs]
+aliases: [IT overview]
+---
+
 # IT overview
 - [Programming map](PROGRAMMING.md) - code, languages, patterns, principles, tooling
 - [System design map](SYSTEM_DESIGN.md) - architecture, scaling, reliability

@@ -1,3 +1,8 @@
+---
+tags: [system-design]
+aliases: [monitoring]
+---
+
 * **Мониторинг**
 	* Prometheus
 	* Grafana

@@ -1,3 +1,8 @@
+---
+tags: [code, languages, cpp]
+aliases: [Include]
+---
+
 # Include
 
 > Подключает файл к текущему

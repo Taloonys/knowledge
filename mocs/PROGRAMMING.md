@@ -1,3 +1,8 @@
+---
+tags: [mocs]
+aliases: [Programming map]
+---
+
 # Programming map
 - [Code home](../src/code/code.md)
 - **Core topics**

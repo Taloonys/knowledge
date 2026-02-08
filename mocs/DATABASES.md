@@ -1,3 +1,8 @@
+---
+tags: [mocs]
+aliases: [Databases map]
+---
+
 # Databases map
 - [Overview](../src/databases/databases.md)
 - **SQL and models**

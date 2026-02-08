@@ -1,3 +1,8 @@
+---
+tags: [code, common]
+aliases: [Types]
+---
+
 > Garbage collector - это специальный механизм некоторых ЯП, который самостоятельно следит за временем жизни объектов.
 # Types
 ## Ref-counter based 

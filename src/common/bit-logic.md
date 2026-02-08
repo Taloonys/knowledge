@@ -1,3 +1,8 @@
+---
+tags: [common]
+aliases: [Upper bits]
+---
+
 * 1 - true
 * 0 - false
 

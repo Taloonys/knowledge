@@ -1,3 +1,8 @@
+---
+tags: [common]
+aliases: [Start]
+---
+
 # Start
 > **4 всадника “контекста” исполнения:**
 ## synchronous programming

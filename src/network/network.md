@@ -1,3 +1,8 @@
+---
+tags: [network]
+aliases: [FAQ]
+---
+
 * [Network base](netbase.md)
 * [Модель OSI](osi.md)
 * [Модель TCP/IP](tcpip.md)

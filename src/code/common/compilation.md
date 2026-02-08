@@ -1,3 +1,8 @@
+---
+tags: [code, common]
+aliases: [1. Preprocessor]
+---
+
 > Вот пункты ниже прям по порядку
 # 1. Preprocessor
 

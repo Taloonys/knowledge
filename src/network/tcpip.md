@@ -1,3 +1,8 @@
+---
+tags: [network]
+aliases: [link layer]
+---
+
 ![PR-14648_image1](../../images/network__PR-14648_image1.png)
 
 [сначала см. Модель OSI](osi.md)

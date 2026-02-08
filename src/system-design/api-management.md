@@ -1,3 +1,8 @@
+---
+tags: [system-design]
+aliases: [Инструментарий]
+---
+
 > **API** - application programming interface, если точнее просто интерфейс для чего-то (набор методов для работы)
 
 **Обычно отвечает за:**

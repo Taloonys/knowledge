@@ -1,3 +1,8 @@
+---
+tags: [common]
+aliases: [Usual anatomy]
+---
+
 # Usual anatomy
 
 ![Untitled](../../images/common__Untitled%2015.png)

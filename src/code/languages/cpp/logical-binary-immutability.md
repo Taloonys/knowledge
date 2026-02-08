@@ -1,3 +1,8 @@
+---
+tags: [code, languages, cpp]
+aliases: [const world]
+---
+
 # const world
 
 ```cpp

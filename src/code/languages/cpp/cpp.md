@@ -1,3 +1,8 @@
+---
+tags: [code, languages, cpp]
+aliases: [Немного сложный для самого начала тутор (лекции ИТМО)]
+---
+
 # Немного сложный для самого начала тутор (лекции ИТМО)
 [About & Links - C++ course notes](https://cpp-kt.github.io/cpp-notes/course.html)
 # Оглавление

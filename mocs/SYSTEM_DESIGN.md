@@ -1,3 +1,8 @@
+---
+tags: [mocs]
+aliases: [System design map]
+---
+
 # System design map
 - [Overview](../src/system-design/system-design.md)
 - **Architecture basics**

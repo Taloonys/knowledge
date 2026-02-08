@@ -1,3 +1,8 @@
+---
+tags: [code, languages, cpp]
+aliases: [Sources]
+---
+
 # Sources
 
 - [https://github.com/lheric/libgitlevtbus/blob/master/src/gitldef.h](https://github.com/lheric/libgitlevtbus/blob/master/src/gitldef.h)

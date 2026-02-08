@@ -1,3 +1,8 @@
+---
+tags: [code, algorithms]
+aliases: [Оглавление]
+---
+
 # Оглавление
 * [Algo-math](algo-math.md)
 * [Big O notation](big-o-notation.md)

@@ -1,3 +1,8 @@
+---
+tags: [code, other]
+aliases: [Vim docs]
+---
+
 > "Coding is just an excuse to use Vim" (c) Any true gigachad
 * **Vi** - встроенное средство линух для редактирования текста
 * **Vim** - его модифицированная версия от Билла Джойа, написанная на vimrc, автор погиб, проект того...

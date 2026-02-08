@@ -1,3 +1,8 @@
+---
+tags: [mocs]
+aliases: [Vault map]
+---
+
 # Vault map
 - [IT overview](IT.md)
 - [Programming map](PROGRAMMING.md)

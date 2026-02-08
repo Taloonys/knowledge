@@ -1,3 +1,8 @@
+---
+tags: [code, algorithms]
+aliases: [LRU]
+---
+
 * Весь код ниже -> исключительно мои попытки наспех что-то воспроизвести
 # LRU
 > Least recently used

@@ -1,3 +1,8 @@
+---
+tags: [code, algorithms]
+aliases: [big o notation]
+---
+
 * [Этой статьи достаточно](https://habr.com/ru/articles/782608/)
 **Big O нотация** нужна для описания сложности алгоритмов. Для этого используется понятие времени.
  ![Untitled](../../../images/code__algorithms__Untitled%208.png)

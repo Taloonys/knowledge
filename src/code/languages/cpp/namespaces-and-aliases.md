@@ -1,3 +1,8 @@
+---
+tags: [code, languages, cpp]
+aliases: [namespace]
+---
+
 # namespace
 
 > Пространство имён 

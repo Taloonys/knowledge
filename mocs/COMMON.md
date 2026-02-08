@@ -1,3 +1,8 @@
+---
+tags: [mocs]
+aliases: [Non-IT / misc map]
+---
+
 # Non-IT / misc map
 ## Биология
 - Общее

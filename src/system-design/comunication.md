@@ -1,3 +1,8 @@
+---
+tags: [system-design]
+aliases: [Синхронные]
+---
+
  * [Web общение](../../network/web-communication.md)
 # Синхронные
 > Отправка запроса, ожидание ответа...

@@ -1,3 +1,8 @@
+---
+tags: [mocs]
+aliases: [Frontend map]
+---
+
 # Frontend map
 - [Overview](../src/frontend/frontend.md)
 - **Frameworks and patterns**

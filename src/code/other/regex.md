@@ -1,3 +1,8 @@
+---
+tags: [code, other]
+aliases: [Тренер / обучалка]
+---
+
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet
 * https://www.rexegg.com/regex-quickstart.php
 * Глобальное описание: ![](../../../images/code__other__regular-expression.webp)

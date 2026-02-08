@@ -1,3 +1,8 @@
+---
+tags: [common]
+aliases: [Shared Memory]
+---
+
 > IPC is Inter-Process-Communication group of technologies that (obviously) provides communication between processes.
 
 # Shared Memory

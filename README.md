@@ -1,3 +1,8 @@
+---
+tags: []
+aliases: [knowledge]
+---
+
 # knowledge
 * Well, it's just a simple personal notes (tbh I've never rechecked them, but some my friends did... idk for what).
 * Here I described my associations with some themes (mostly it's in C++) and shortened some term descriptions.

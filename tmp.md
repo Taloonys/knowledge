@@ -1,1 +1,6 @@
+---
+tags: []
+aliases: [tmp]
+---
+
 .

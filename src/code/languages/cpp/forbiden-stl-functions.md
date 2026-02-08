@@ -1,3 +1,8 @@
+---
+tags: [code, languages, cpp]
+aliases: [forbiden stl functions]
+---
+
 --- 
 
 | Память/массивы данных          | memset                                    |                                                                                                                     |

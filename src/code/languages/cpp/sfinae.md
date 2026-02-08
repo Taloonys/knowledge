@@ -1,3 +1,8 @@
+---
+tags: [code, languages, cpp]
+aliases: [SFINAE tools]
+---
+
 # SFINAE tools
 
 # enable_if<bool, T>

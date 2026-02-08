@@ -1,3 +1,8 @@
+---
+tags: [mocs]
+aliases: [Networks map]
+---
+
 # Networks map
 - [Overview](../src/network/network.md)
 - **Models and base**

@@ -1,3 +1,8 @@
+---
+tags: [code, languages, cpp]
+aliases: [Some resources]
+---
+
 # Some resources
 * [Многопоточность - C++ course notes](https://cpp-kt.github.io/cpp-notes/26_multithreading.html)
 * [Многопоточность и Thread Pool в C++](https://habr.com/ru/articles/738250/)

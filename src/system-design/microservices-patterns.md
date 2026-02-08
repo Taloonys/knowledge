@@ -1,3 +1,8 @@
+---
+tags: [system-design]
+aliases: [Application patterns]
+---
+
 > Прям полезный сборник всех паттернов: https://microservices.io/patterns/
 # Application patterns
 ## Saga

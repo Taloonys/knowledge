@@ -1,3 +1,8 @@
+---
+tags: [code, algorithms]
+aliases: [Базовая терминология]
+---
+
 * better watch order of learning: https://www.youtube.com/watch?v=RHxuUQ58yjc
 # Базовая терминология
 * **указатель, pointer, ptr ->** не обязательно именно указатель на память, в контексте структур данных это **может быть и просто индекс**

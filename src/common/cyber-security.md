@@ -1,3 +1,8 @@
+---
+tags: [common]
+aliases: [cyber security]
+---
+
 > Not sure how to struct it... 
 
 💡 1. Book → Evading EDR, The Defenitive Guide to Defeating Endpoint Detections System

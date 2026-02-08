@@ -1,3 +1,8 @@
+---
+tags: [code, languages]
+aliases: [project structure]
+---
+
 * компилируемый
 * статическая строгая типизация
 * error и panic вместо исключений

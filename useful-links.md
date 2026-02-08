@@ -1,3 +1,8 @@
+---
+tags: []
+aliases: [useful links]
+---
+
 
 | disassemble code           | [Compiler Explorer](https://godbolt.org/)                                          |
 | -------------------------- | ---------------------------------------------------------------------------------- |

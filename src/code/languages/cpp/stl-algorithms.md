@@ -1,3 +1,8 @@
+---
+tags: [code, languages, cpp]
+aliases: [Algorithms with STL]
+---
+
 # Algorithms with STL
 - Всё это находится в `<algorithm>` или ` <numeric>`
 - Если для кого-то нет примера с предикатом, то почти наверняка метод всё же позволяет его задать

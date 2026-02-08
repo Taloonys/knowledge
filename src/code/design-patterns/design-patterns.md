@@ -1,3 +1,8 @@
+---
+tags: [design-patterns]
+aliases: [Паттерны проектирования]
+---
+
 * [Creational design patterns](creational-design-patterns.md)
 * [Structural design patterns](structural-design-patterns.md)
 * [Behavioral design patterns](behavioral-design-patterns.md)

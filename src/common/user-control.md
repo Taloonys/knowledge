@@ -1,3 +1,8 @@
+---
+tags: [common]
+aliases: [Windows]
+---
+
 # Windows
 * UAC - User Access Control
 * SID - Security ID
