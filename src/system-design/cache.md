@@ -80,4 +80,10 @@
     - L2: 256 КБ – 2 МБ на ядро
     - L3: 8–128 МБ (общий для чипа)
 - **Скорость**: ~500–2000 ГБ/с (latency в наносекундах)
+
+## Связанные записи
+- [Query optimisation и индексы](../databases/query-optimisation.md)
+- [Индексы](../databases/index.md)
+- [Replication](replication.md)
+- [CDN](cdn.md)
   

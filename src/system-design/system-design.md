@@ -62,6 +62,12 @@
 - Оркестрация
 - БД...
 
+## Связанные разделы
+- [Сети](../network/network.md)
+- [Web коммуникации](../network/web-communication.md)
+- [Базы данных](../databases/databases.md)
+- [Безопасность данных](../databases/sql-injections.md)
+
 # Какая-то небольшая шпора...
 ![Untitled](../../images/system-design__Untitled.png)
 

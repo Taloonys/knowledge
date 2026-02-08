@@ -38,3 +38,9 @@
 * Сложность управления состояниями и мониторингом каждой реплики (если их много)
 # example
 * https://github.com/Taloonys/distributing-db-research/tree/dev -> `mongo-sharding-repl`
+
+## Связанные записи
+- [Транзакции и изоляция](../databases/transactions.md)
+- [CAP / консистентность](cap-theorem.md)
+- [Реляционные БД](../databases/relationaldb.md)
+- [NoSQL](../databases/nosqldb.md)

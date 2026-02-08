@@ -41,3 +41,10 @@
 > Работает по принципу DNS, есть центральный шард, который в случае чего, знает куда обратиться для получения нужных данных
 
 ![lookup-based-sharding](../../images/system-design__lookup-based-sharding.webp)
+
+## Связанные записи
+- [Выбор типа БД](../databases/databases.md)
+- [NoSQL](../databases/nosqldb.md)
+- [Реляционные БД](../databases/relationaldb.md)
+- [Query optimisation](../databases/query-optimisation.md)
+- [Балансировка нагрузки](load-balancer.md)
