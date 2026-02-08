@@ -1,3 +1,5 @@
+> Навигацию по MOC смотри в `mocs/INDEX.md`
+
 * [Про коддинг](code/main.md)
 * [Общие концепты](common/main.md)
 * [Базы данных](databases/main.md)
@@ -5,4 +7,3 @@
 * [Машинное обучение](ml/main.md)
 * [Интернет/сети](network/main.md)
 * [System Design](system-design/main.md)
-

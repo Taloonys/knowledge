@@ -1,0 +1,17 @@
+# Databases map
+- [Overview](../databases/main.md)
+- **SQL and models**
+  - [SQL basics](../databases/resources/sql.md)
+  - [Relational DBs](../databases/resources/relationaldb.md)
+  - [NoSQL](../databases/resources/nosqldb.md)
+- **Performance and storage**
+  - [Indexes](../databases/resources/index.md)
+  - [Query optimisation](../databases/resources/query-optimisation.md)
+  - [Window functions](../databases/resources/window-functions.md)
+- **Correctness**
+  - [Transactions](../databases/resources/transactions.md)
+  - [Locks](../databases/resources/locs.md)
+  - [SQL injections](../databases/resources/sql-injections.md)
+- **See also**
+  - [System design map](SYSTEM_DESIGN.md)
+  - [Programming map](PROGRAMMING.md)

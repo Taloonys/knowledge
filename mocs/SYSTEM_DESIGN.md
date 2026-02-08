@@ -1,0 +1,34 @@
+# System design map
+- [Overview](../system-design/main.md)
+- **Architecture basics**
+  - [Model system](../system-design/resources/model-system.md)
+  - [Communication](../system-design/resources/comunication.md)
+  - [API management](../system-design/resources/api-management.md)
+  - [Deploy strategies](../system-design/resources/deploy-strategy.md)
+- **Scalability and reliability**
+  - [Availability](../system-design/resources/availability.md)
+  - [Reliability](../system-design/resources/realiability.md)
+  - [Resilience](../system-design/resources/resilience.md)
+  - [Scalability](../system-design/resources/scalability.md)
+  - [Load balancer](../system-design/resources/load-balancer.md)
+  - [Load calculating](../system-design/resources/load-calculating.md)
+  - [Caching](../system-design/resources/cache.md)
+  - [Replication](../system-design/resources/replication.md)
+  - [Sharding](../system-design/resources/sharding.md)
+- **Data and infrastructure**
+  - [Data control](../system-design/resources/data-control.md)
+  - [CDN](../system-design/resources/cdn.md)
+  - [Monitoring](../system-design/resources/monitoring.md)
+  - [DevOps practices](../system-design/resources/devops.md)
+  - [Kafka](../system-design/resources/kafka.md)
+- **Patterns and styles**
+  - [Microservices](../system-design/resources/microservices.md)
+  - [Microservices patterns](../system-design/resources/microservices-patterns.md)
+  - [Microservices landscape](../system-design/resources/microservices-landscape.md)
+  - [Microservices migration](../system-design/resources/microservices-migration.md)
+  - [MVC](../system-design/resources/mvc.md)
+- **Theory**
+  - [CAP theorem](../system-design/resources/cap-theorem.md)
+- **See also**
+  - [Databases map](DATABASES.md)
+  - [Programming map](PROGRAMMING.md)

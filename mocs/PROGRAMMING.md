@@ -1,3 +1,18 @@
-- [Common staff](common.md)
-- [Languages](languages.md)
-- [Code design patterns](design-patterns.md)
+# Programming map
+- [Code home](../code/main.md)
+- **Core topics**
+  - [Algorithms](../code/algorithms/main.md)
+  - [Languages](../code/languages/main.md)
+  - [Design patterns](../code/design-patterns/main.md)
+  - [Principles](../code/principles/main.md)
+  - [Runtime / internals](../code/common/main.md)
+- **Tooling**
+  - [Git](../code/other/git.md)
+  - [Docker](../code/other/docker.md)
+  - [Kubernetes](../code/other/k8s.md)
+  - [Nginx](../code/other/nginx.md)
+  - [Vim](../code/other/vim.md)
+- **See also**
+  - [Frontend map](FRONTEND.md)
+  - [System design map](SYSTEM_DESIGN.md)
+  - [Databases map](DATABASES.md)

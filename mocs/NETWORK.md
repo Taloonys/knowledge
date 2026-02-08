@@ -1,0 +1,12 @@
+# Networks map
+- [Overview](../network/main.md)
+- **Models and base**
+  - [Network base](../network/resources/netbase.md)
+  - [OSI model](../network/resources/osi.md)
+  - [TCP/IP model](../network/resources/tcpip.md)
+- **Entities and communication**
+  - [Entities and services](../network/resources/network-entities.md)
+  - [Web communication](../network/resources/web-communication.md)
+- **See also**
+  - [System design map](SYSTEM_DESIGN.md)
+  - [Databases map](DATABASES.md)
