@@ -1,0 +1,3 @@
+- [Common staff](common.md)
+- [Languages](languages.md)
+- [Code design patterns](design-patterns.md)
