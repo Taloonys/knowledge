@@ -9,19 +9,26 @@ aliases: [Полезные паттерны кода]
   ```ts
   const locator = new Map([["logger", console]]);
   const logger = locator.get("logger");
+  
   logger.log("hi");
   ```
+  
 - **Repository** — слой, прячущий хранение/SQL за интерфейсом коллекции доменных объектов.
   ```python
   class UserRepo:
       def __init__(self, db):
-          self.db=db
+          self.db = db
+		  
       def by_id(self, i):
-          return self.db.query("select * from users where id=?", (i,))
+          return self.db
+            .query("select * from users where id=?", (i,))
   ```
+  
 - **Сущность-Атрибут-Значение (EAV)** — гибкая схема key-value на сущность, когда столбцы заранее неизвестны.
   ```ts
-  const attrs = { "42": { color: "red", size: "L" } };
+  const attrs = { 
+    "42": { color: "red", size: "L" } 
+  };
   const size = attrs["42"]["size"]; // "L"
   ```
 
