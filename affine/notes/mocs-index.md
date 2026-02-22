@@ -1,0 +1,19 @@
+---
+tags: [mocs]
+aliases: [Vault map]
+---
+
+# Vault map
+- [IT overview](IT.md)
+- [Programming map](PROGRAMMING.md)
+- [System design map](SYSTEM_DESIGN.md)
+- [Databases map](DATABASES.md)
+- [Frontend map](FRONTEND.md)
+- [Networks map](NETWORK.md)
+- [Machine learning map](ML.md)
+- [Game dev map](GAMEDEV.md)
+- [Common computing basics](../src/common/common.md)
+- [Non-IT / misc knowledge](COMMON.md)
+- [Useful links](../useful-links.md)
+- [Legacy entrypoint](../main.md)
+- [Repo README](../README.md)

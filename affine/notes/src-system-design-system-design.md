@@ -1,0 +1,80 @@
+---
+tags: [system-design]
+aliases: [System Design]
+---
+
+* Какие-то картинки и информацию я нашёл на просторах Яндекс Практикума в контексте архитектуры ПО. 
+  Информацию я переформулировал и укоротил, а картинки вроде как ищутся поиском по фото в поисковике. 
+  Но на всякий упомяну, что куда лучше и шире описано всё в самом курсе. 
+  Получается, что это почти реклама...
+# TODO
+* Kafka vs RabbitMQ
+* Некоторые определения вынести сюда или в другие темы
+* Вынести всю терминологию из файлов
+# Факторы системы
+> Основные параметры оценки системы
+
+![Pasted image 20241026133425](../../images/system-design__Pasted%20image%2020241026133425.png)
+* Масштабируемость
+* Отказоустойчивость
+* Производительность
+* Поддерживаемость
+* Безопасность
+А обеспечивается это всё следующими факторами...
+## Технические факторы
+* [Модель системы](model-system.md)
+
+* [Коммуникация](comunication.md)
+* [Стратегии развёртывания](deploy-strategy.md)
+* [Балансировка нагрузки](load-balancer.md)
+* [Устойчивость к сбоям](resilience.md)
+* [Масштабируемость](scalability.md)
+* [Безопасность](security.md)
+* [Мониторинг/Наблюдаемость системы](monitoring.md)
+* [Управление данными](data-control.md)
+* [API-менеджмент](api-management.md)
+* Тестирование и валидация
+* [Инфраструктура/devops практики](devops.md)
+* Версионарование и совместимость
+### No idea where to stick it rn...
+* [Немного про описание доступности](availability.md)
+* [Надёжность](realiability.md)
+* [Стратегии кэширования](cache.md) (потом перенести в data-control)
+# Load calculating
+[All about service load calculating](load-calculating.md)
+# Terms
+* Data PipeLine -> https://www.youtube.com/watch?v=kGT4PcTEPP8
+* [CAP theorem](cap-theorem.md)
+
+# To-do
+- [ ]  Оптимизация производительности
+* [MVC](mvc.md)
+
+- SOA (Service-Oriented Architecture) vs Microservice vs Monolith
+- Domain-driven design
+- Event-driven подход
+- Distributed Storage
+- Infrastructure as Code
+- Integration Patterns
+- Monitoring?
+- Cloud Architecture
+- Realtime Architecture
+- Service Mesh
+- Микрофронты
+- Highload
+- Кэширование
+- Контейнеризация
+- Оркестрация
+- БД...
+
+## Связанные разделы
+- [Сети](../network/network.md)
+- [Web коммуникации](../network/web-communication.md)
+- [Базы данных](../databases/databases.md)
+- [Безопасность данных](../databases/sql-injections.md)
+
+# Какая-то небольшая шпора...
+![Untitled](../../images/system-design__Untitled.png)
+
+**полезные источники**
+* [system-design-primer/README.md at master · donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer/blob/master/README.md#appendix)

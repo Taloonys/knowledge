@@ -1,0 +1,24 @@
+---
+tags: [code, design-patterns]
+aliases: [Где помогает]
+---
+
+> Методы возвращают `this`, позволяя писать цепочки вызовов.
+
+## Где помогает
+- Читаемые билдеры запросов/конфигов.
+- Минимизировать временные переменные.
+
+## Мини-пример
+```js
+class Query{
+  select(f){ this.f=f; return this; }
+  where(c){ this.c=c; return this; }
+  limit(n){ this.n=n; return this; }
+}
+const q = new Query().select("id").where("active=1").limit(10);
+```
+
+## Замечания
+- Не путать с настоящим Builder паттерном — это лишь стиль API.
+- Делайте методы идемпотентными, чтобы цепочки были предсказуемыми.
