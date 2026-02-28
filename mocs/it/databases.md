@@ -17,7 +17,4 @@ aliases: [Databases map]
   - [Transactions](../../src/databases/transactions.md)
   - [Locks](../../src/databases/locs.md)
   - [SQL injections](../../src/databases/sql-injections.md)
-- **See also**
-  - [System design map](system-design.md)
-  - [Programming map](coding.md)
 - [Up: IT overview](../it.md)

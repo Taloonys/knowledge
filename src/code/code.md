@@ -1,18 +1,15 @@
 ---
 tags: [code]
-aliases: [Оглавление]
+aliases: [Code area]
 ---
 
-# Оглавление
-* [Algorithms](algorithms/algorithms.md)
-* [Principles](principles/principles.md)
-* [Common logic](common/common.md)
-* [Design patterns](design-patterns/design-patterns.md)
-* [Languages](languages/languages.md)
-# Other stuff
-* [vim](other/vim.md)
-* [git](other/git.md)
-* [docker](other/docker.md)
-* [nginx](other/nginx.md)
-* [k8s или -> kubernetes](other/k8s.md)
-  
+# Code notes
+> Navigation for programming now lives in `mocs/it/coding.md`. This file is a lightweight landing page for code-related content.
+
+Основные разделы лежат рядом в подпапках:
+- `algorithms/`
+- `languages/`
+- `design-patterns/`
+- `principles/`
+- `common/`
+- `other/` (tooling)

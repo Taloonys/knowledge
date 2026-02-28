@@ -12,7 +12,4 @@ aliases: [Networks map]
 - **Entities and communication**
   - [Entities and services](../../src/network/network-entities.md)
   - [Web communication](../../src/network/web-communication.md)
-- **See also**
-  - [System design map](system-design.md)
-  - [Databases map](databases.md)
 - [Up: IT overview](../it.md)

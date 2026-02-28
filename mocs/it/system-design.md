@@ -34,7 +34,4 @@ aliases: [System design map]
   - [MVC](../../src/system-design/mvc.md)
 - **Theory**
   - [CAP theorem](../../src/system-design/cap-theorem.md)
-- **See also**
-  - [Databases map](databases.md)
-  - [Programming map](coding.md)
 - [Up: IT overview](../it.md)
