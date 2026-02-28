@@ -9,9 +9,8 @@ aliases: [knowledge]
 * Most of the notes are in russian
 
 # Navigation (MOC-first)
-- Start at `mocs/INDEX.md` for the vault map.
-- `mocs/IT.md` links all tech areas (programming, system design, DB, frontend, network, ML, gamedev).
-- `mocs/COMMON.md` keeps non-IT topics; `src/common/common.md` keeps computing basics.
+- Start at `mocs/programming.md` for the IT map.
+- `src/common/common.md` keeps computing basics (non-programming).
 - Links stay as standard markdown (`[name](route.md)`) to stay git-friendly.
 
 # Structured like...

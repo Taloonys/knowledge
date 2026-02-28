@@ -3,7 +3,7 @@ tags: []
 aliases: [main]
 ---
 
-> Навигацию по MOC смотри в `mocs/INDEX.md`
+> Навигацию по MOC смотри в `mocs/programming.md`
 
 * [Про коддинг](src/code/code.md)
 * [Общие концепты](src/common/common.md)
