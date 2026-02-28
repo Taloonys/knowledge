@@ -9,4 +9,4 @@ aliases: [Machine learning map]
 - **See also**
   - [Programming map](coding.md)
   - [Databases map](databases.md)
-- [Up: IT overview](../programming.md)
+- [Up: IT overview](../it.md)

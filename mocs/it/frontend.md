@@ -14,4 +14,4 @@ aliases: [Frontend map]
 - **See also**
   - [Programming map](coding.md)
   - [System design map](system-design.md)
-- [Up: IT overview](../programming.md)
+- [Up: IT overview](../it.md)

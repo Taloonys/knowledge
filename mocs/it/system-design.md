@@ -37,4 +37,4 @@ aliases: [System design map]
 - **See also**
   - [Databases map](databases.md)
   - [Programming map](coding.md)
-- [Up: IT overview](../programming.md)
+- [Up: IT overview](../it.md)

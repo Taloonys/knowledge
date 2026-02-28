@@ -15,4 +15,4 @@ aliases: [Networks map]
 - **See also**
   - [System design map](system-design.md)
   - [Databases map](databases.md)
-- [Up: IT overview](../programming.md)
+- [Up: IT overview](../it.md)
