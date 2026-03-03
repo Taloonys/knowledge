@@ -1,9 +1,11 @@
 ---
 tags: [code, algorithms]
-aliases: [Оглавление]
+aliases: [Algorithms overview]
 ---
 
-# Оглавление
+> Navigation lives in `mocs/it/coding/algorithms.md`. This file keeps the overview table and links to notes.
+
+# Содержание
 * [Algo-math](algo-math.md)
 * [Big O notation](big-o-notation.md)
 * [Data structures](data-structures.md)

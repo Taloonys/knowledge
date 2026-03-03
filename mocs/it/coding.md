@@ -5,7 +5,7 @@ aliases: [Programming map]
 - [Up/Back](../it.md)
 # Programming map
 ## Core
-- [Algorithms](../../src/code/algorithms/algorithms.md)
+- [Algorithms map](coding/algorithms.md)
 - [Languages](../../src/code/languages/languages.md)
 - [Design patterns](../../src/code/design-patterns/design-patterns.md)
 - [Principles](../../src/code/principles/principles.md)
