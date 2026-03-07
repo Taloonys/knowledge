@@ -10,7 +10,7 @@ aliases: [knowledge]
 
 # Navigation (MOC-first)
 - Start at `mocs/it.md` for the IT map.
-- `src/common/common.md` keeps computing basics (non-programming).
+- `mocs/it/common.md` keeps computing basics (non-programming).
 - Links stay as standard markdown (`[name](route.md)`) to stay git-friendly.
 
 # Structured like...

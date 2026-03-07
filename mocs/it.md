@@ -13,5 +13,5 @@ aliases:
 - [Networks map](it/network.md) - OSI/TCP-IP, entities, web communication
 - [Machine learning map](it/ml.md) - math and ML notes
 - [Game dev map](it/gamedev.md) - game-specific notes
-- [Common computing basics](../src/common/common.md)
+- [Common computing basics](it/common.md)
 - [Useful links](../src/useful-links.md)

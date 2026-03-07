@@ -5,14 +5,6 @@ aliases: [Algorithms overview]
 
 > Navigation lives in `mocs/it/coding/algorithms.md`. This file keeps the overview table and links to notes.
 
-# Содержание
-* [Algo-math](algo-math.md)
-* [Big O notation](big-o-notation.md)
-* [Data structures](data-structures.md)
-* [Common patterns](common-patterns.md)
-* [Sorting methods1 - old](sorting.md)
-* [Sorting algorithms2 - new](sortings.md)
-* [Too advanced (never gonna be used in interviews)](adv-algo.md)
 # Real cases
 | Общий концепт                                   | Про что                                              | обычно черз..<br>(убрать потом)   | мои попытки...             |
 | ----------------------------------------------- | ---------------------------------------------------- | --------------------------------- | -------------------------- |
