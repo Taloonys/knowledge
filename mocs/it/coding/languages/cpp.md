@@ -1,7 +1,12 @@
-tags: [mocs, code, languages, cpp]
-aliases: [Немного сложный для самого начала тутор (лекции ИТМО)]
 ---
-
+tags:
+  - mocs
+  - code
+  - languages
+  - cpp
+aliases:
+  - cpp
+---
 - [Up/Back](../languages.md)
 # Немного сложный для самого начала тутор (лекции ИТМО)
 [About & Links - C++ course notes](https://cpp-kt.github.io/cpp-notes/course.html)

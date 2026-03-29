@@ -1,26 +1,10 @@
----
-tags: [common]
-aliases: [Windows]
----
-
-# Windows
-
-# RPC
-> `Remote Procedure Call` but doesn't meant to be in server-client contextes, user1-user1 or even process1-process1 are allowed.
-> *link: https://csandker.io/2021/02/21/Offensive-Windows-IPC-2-RPC.html*
-
-# ALPC (and LPC)
-> `Local Procedure Call` - is a synchronous message deliver mechanic. <br>
-> `Advanced LPC` (sometimes 'A' stands for Asynchronous) - is a kinda fast asynchronous message deliver mechanic, that uses RPC and shm in some scenarios (for example if msg is bigger than 4kB). <br>
-> *link: https://csandker.io/2022/05/24/Offensive-Windows-IPC-3-ALPC.html*
-# Linux
 💡 Временно. Это когда-то было моё описание того, как работают процессы и как они ссылаются на ID.
 
 Для создания демона стандартным путём "чисто C-либы" есть 2 варианта:
 - fork() + setssid()
 - double-fork tech
 
-## double-fork tech
+# double-fork tech
 Есть иерархия:
 - Session ID (sid)
     - Process group ID (pgid)
@@ -47,7 +31,7 @@ aliases: [Windows]
 • Внук становится лидером **новой** сессии, в которой внук и остаётся единственным процессом
 • Внук становится лидером **новой** группы процессов
 • Не смотря на то, что внук – лидер сессии, он **НЕ** получает управление над controlling terminal (и нет доступа к tty, даже если у родителя он был)
-## fork() + setssid()
+# fork() + setssid()
 Одной из важных признаков демона является отсутствие к управляющему терминалу, поэтому почему бы после первого форка не указать, что ребёнок не будет лидером сессии?
 
 Отсюда некоторые особенности про создание демона: (типа напоминалка)

@@ -14,7 +14,7 @@ aliases: [Basics]
 * [PATH and env variables](../../src/common/envs.md)
 * [File semantics](../../src/common/files.md)
 * [Threads](../../src/common/threads.md)
-* [Operating Systems](../../src/common/operating-systems.md)
+* [Operating Systems](../../src/common/os.md)
 * [Credentials & User rights](../../src/common/user-control.md)
 # idk
 * [Quantum Evaluations](../../src/common/quantum-evaluations.md)
