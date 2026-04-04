@@ -6,12 +6,12 @@ aliases:
 ---
 
 # IT overview
-- [Programming map](it/coding.md) - code, languages, patterns, principles, tooling
-- [System design map](it/system-design.md) - architecture, scaling, reliability
-- [Databases map](it/databases.md) - SQL, NoSQL, indexes, transactions
-- [Frontend map](it/frontend.md) - web basics, React, microfrontends
-- [Networks map](it/network.md) - OSI/TCP-IP, entities, web communication
-- [Machine learning map](it/ml.md) - math and ML notes
+- [Programming map](it/coding.md) - Языки, паттерны, принципы и всякое про прям код...
+- [System design map](it/system-design.md) - архитектура ПО...
+- [Databases map](it/databases.md) - SQL, (не)реляционные бд, транзакции и прочее...
+- [Frontend map](it/frontend.md) - нечто малое про фронтэнд...
+- [Networks map](it/network.md) - базовые понятия и поверхностное представление и сети... 
+- [Machine learning map](it/ml.md) - если честно, то это that much far plans
 - [Game dev map](it/gamedev.md) - game-specific notes
-- [Common computing basics](it/common.md)
-- [Useful links](../src/useful-links.md)
+- [Common computing basics](it/common.md) - базовое представление о ПК и ОС
+- [Useful links](../src/useful-links.md) - ну на самом деле не оч...

@@ -2,9 +2,6 @@
 tags: [code, algorithms]
 aliases: [Algorithms overview]
 ---
-
-> Navigation lives in `mocs/it/coding/algorithms.md`. This file keeps the overview table and links to notes.
-
 # Real cases
 | Общий концепт                                   | Про что                                              | обычно черз..<br>(убрать потом)   | мои попытки...             |
 | ----------------------------------------------- | ---------------------------------------------------- | --------------------------------- | -------------------------- |

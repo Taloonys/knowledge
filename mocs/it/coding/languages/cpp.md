@@ -11,28 +11,28 @@ aliases:
 # Немного сложный для самого начала тутор (лекции ИТМО)
 [About & Links - C++ course notes](https://cpp-kt.github.io/cpp-notes/course.html)
 # Оглавление
-* [Introduction info](../../../../src/code/languages/cpp/info.md)
-* [Base stuff](../../../../src/code/languages/cpp/base-stuff.md)
-* [Strings](../../../../src/code/languages/cpp/strings.md)
-* [keywords & attributes](../../../../src/code/languages/cpp/keywords-attributes.md)
-* [OOP](../../../../src/code/languages/cpp/oop.md)
-* [namespaces-and-aliases](../../../../src/code/languages/cpp/namespaces-and-aliases.md)
-* [Logical/binary constant (+mutable)](../../../../src/code/languages/cpp/logical-binary-immutability.md)
-* [Directives](../../../../src/code/languages/cpp/directives.md)
-* [Templates or metaprogramming](../../../../src/code/languages/cpp/templates.md)
-* [collections](../../../../src/code/languages/cpp/collections.md)
-* [Iterators](../../../../src/code/languages/cpp/Iterators.md)
-* [POD-structures, standard layouts](../../../../src/code/languages/cpp/pods-and-standard_layouts.md)
-* [Casting](../../../../src/code/languages/cpp/cast.md)
-* [Functional objects and handling](../../../../src/code/languages/cpp/functional.md)
-* [Operators overriding](../../../../src/code/languages/cpp/operators-overriding.md)
-* [Exceptions](../../../../src/code/languages/cpp/exceptions.md)
-* [Macro](../../../../src/code/languages/cpp/macro.md)
-* [Rvalue/lvalue](../../../../src/code/languages/cpp/rvalue-lvalue.md)
-* [RAII](../../../../src/code/languages/cpp/raii.md)
-* [idioms](../../../../src/code/languages/cpp/idioms.md)
-* [Multithreading](../../../../src/code/languages/cpp/multithreading.md)
-* STL (Standard Library)
+* [Introduction info](../../../../src/code/languages/cpp/info.md) - вступление
+* [Base stuff](../../../../src/code/languages/cpp/base-stuff.md) - база, мб длинно, но для начала норм
+* [Strings](../../../../src/code/languages/cpp/strings.md) - строки
+* [keywords & attributes](../../../../src/code/languages/cpp/keywords-attributes.md) - ключевые слова
+* [OOP](../../../../src/code/languages/cpp/oop.md) - ооп, оч длинно - потому и не очень хорошо...
+* [namespaces-and-aliases](../../../../src/code/languages/cpp/namespaces-and-aliases.md) - пространства имён
+* [Logical/binary constant (+mutable)](../../../../src/code/languages/cpp/logical-binary-immutability.md) - контекст константности
+* [Directives](../../../../src/code/languages/cpp/directives.md) - всякое про `#слова`
+* [Templates or metaprogramming](../../../../src/code/languages/cpp/templates.md) - шаблоны/дженерики и метапрограммирование
+* [collections](../../../../src/code/languages/cpp/collections.md) - коллекции/структуры
+* [Iterators](../../../../src/code/languages/cpp/Iterators.md) - итераторы
+* [POD-structures, standard layouts](../../../../src/code/languages/cpp/pods-and-standard_layouts.md) - легковесные структуры
+* [Casting](../../../../src/code/languages/cpp/cast.md) - преобразования
+* [Functional objects and handling](../../../../src/code/languages/cpp/functional.md) - функциональные объекты и хэндлеры
+* [Operators overriding](../../../../src/code/languages/cpp/operators-overriding.md) - переопределение операторов
+* [Exceptions](../../../../src/code/languages/cpp/exceptions.md) - исключения
+* [Macro](../../../../src/code/languages/cpp/macro.md) - макросы (не фу)
+* [Rvalue/lvalue](../../../../src/code/languages/cpp/rvalue-lvalue.md) - природа значений
+* [RAII](../../../../src/code/languages/cpp/raii.md) - обязательная фича по управлению памятью
+* [idioms](../../../../src/code/languages/cpp/idioms.md) - идиомы плюсов
+* [Multithreading](../../../../src/code/languages/cpp/multithreading.md) - многопоточность
+* STL (Standard Library) - meh
 	* [Forbiden Stl functions ](../../../../src/code/languages/cpp/forbiden-stl-functions.md)
 	* [Algorithms with STL](../../../../src/code/languages/cpp/stl-algorithms.md)
 ---
