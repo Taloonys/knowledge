@@ -1,5 +1,5 @@
 - start through [here](./mocs/it.md)
-- moc - stand for Map Of Contents
+- moc - stands for Map Of Contents
 - anything in `src/` - is `.md` files where `mocs/**` are *point to*
 # about
 * Well, it's just a simple personal notes (tbh I've never rechecked them, but some my friends did... idk for what).
