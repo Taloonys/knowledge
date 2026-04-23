@@ -6,7 +6,6 @@ aliases: [Windows]
 # Windows
 * UAC - User Access Control
 * SID - Security ID
-* Tokens for threads & processes - ???
 ## UAC enabled
 * Процессы наследуют токены юзеров, что их запускают!
 
@@ -25,4 +24,10 @@ aliases: [Windows]
 * **User не сможет запускать high IL процессы**
 * **Admin получает high IL** и **любой процесс**, который он запускает - **становится админским**, т.е. уже нет проверки на Full elevated токен
 # Linux
-* real, effective IDs
+> Есть несколько идентификаторов прав у юзеров
+* просто id -> ну или real
+- euid -> effective uid
+## login
+ - `var/run/utmp` - отслеживает все успешные логины юзеров
+ - `var/log/wtmp` - здесь хранятся логи о всех зашедших и ливнувших из системы юзеров
+ - `var/log/btmp` - примерно как `...wtmp` только о речь про провальные попытки залогиниться
