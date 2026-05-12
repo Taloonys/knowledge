@@ -1,5 +1,4 @@
-- start IT [here](./mocs/it.md)
-- start non-IT [here](./mocs/non-it.md)
+- start [> here <](./main.md)
 - moc - stands for Map Of Contents
 - anything in `src/` - is `.md` files where `mocs/**` are *point to*
 # about

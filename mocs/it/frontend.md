@@ -4,10 +4,10 @@ aliases: [Frontend map]
 ---
 
 # Frontend map
-- [Overview](../../src/frontend/frontend.md)
+- [Overview](../../src/it/frontend/frontend.md)
 - **Frameworks and patterns**
-  - [React](../../src/frontend/react.md)
-  - [Microfrontends](../../src/frontend/microfronts.md)
+  - [React](../../src/it/frontend/react.md)
+  - [Microfrontends](../../src/it/frontend/microfronts.md)
 - **Language links**
   - [JavaScript notes](../../src/code/languages/js.md)
   - [JS syntax quicklist](../../src/code/languages/js-syntax.md)

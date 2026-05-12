@@ -11,30 +11,30 @@ aliases:
 # Немного сложный для самого начала тутор (лекции ИТМО)
 [About & Links - C++ course notes](https://cpp-kt.github.io/cpp-notes/course.html)
 # Оглавление
-* [Introduction info](../../../../src/code/languages/cpp/info.md) - вступление
-* [Base stuff](../../../../src/code/languages/cpp/base-stuff.md) - база, мб длинно, но для начала норм
-* [Strings](../../../../src/code/languages/cpp/strings.md) - строки
-* [keywords & attributes](../../../../src/code/languages/cpp/keywords-attributes.md) - ключевые слова
-* [OOP](../../../../src/code/languages/cpp/oop.md) - ооп, оч длинно - потому и не очень хорошо...
-* [namespaces-and-aliases](../../../../src/code/languages/cpp/namespaces-and-aliases.md) - пространства имён
-* [Logical/binary constant (+mutable)](../../../../src/code/languages/cpp/logical-binary-immutability.md) - контекст константности
-* [Directives](../../../../src/code/languages/cpp/directives.md) - всякое про `#слова`
-* [Templates or metaprogramming](../../../../src/code/languages/cpp/templates.md) - шаблоны/дженерики и метапрограммирование
-* [collections](../../../../src/code/languages/cpp/collections.md) - коллекции/структуры
-* [Iterators](../../../../src/code/languages/cpp/Iterators.md) - итераторы
-* [POD-structures, standard layouts](../../../../src/code/languages/cpp/pods-and-standard_layouts.md) - легковесные структуры
-* [Casting](../../../../src/code/languages/cpp/cast.md) - преобразования
-* [Functional objects and handling](../../../../src/code/languages/cpp/functional.md) - функциональные объекты и хэндлеры
-* [Operators overriding](../../../../src/code/languages/cpp/operators-overriding.md) - переопределение операторов
-* [Exceptions](../../../../src/code/languages/cpp/exceptions.md) - исключения
-* [Macro](../../../../src/code/languages/cpp/macro.md) - макросы (не фу)
-* [Rvalue/lvalue](../../../../src/code/languages/cpp/rvalue-lvalue.md) - природа значений
-* [RAII](../../../../src/code/languages/cpp/raii.md) - обязательная фича по управлению памятью
-* [idioms](../../../../src/code/languages/cpp/idioms.md) - идиомы плюсов
-* [Multithreading](../../../../src/code/languages/cpp/multithreading.md) - многопоточность
+* [Introduction info](../../../../src/it/code/languages/cpp/info.md) - вступление
+* [Base stuff](../../../../src/it/code/languages/cpp/base-stuff.md) - база, мб длинно, но для начала норм
+* [Strings](../../../../src/it/code/languages/cpp/strings.md) - строки
+* [keywords & attributes](../../../../src/it/code/languages/cpp/keywords-attributes.md) - ключевые слова
+* [OOP](../../../../src/it/code/languages/cpp/oop.md) - ооп, оч длинно - потому и не очень хорошо...
+* [namespaces-and-aliases](../../../../src/it/code/languages/cpp/namespaces-and-aliases.md) - пространства имён
+* [Logical/binary constant (+mutable)](../../../../src/it/code/languages/cpp/logical-binary-immutability.md) - контекст константности
+* [Directives](../../../../src/it/code/languages/cpp/directives.md) - всякое про `#слова`
+* [Templates or metaprogramming](../../../../src/it/code/languages/cpp/templates.md) - шаблоны/дженерики и метапрограммирование
+* [collections](../../../../src/it/code/languages/cpp/collections.md) - коллекции/структуры
+* [Iterators](../../../../src/it/code/languages/cpp/Iterators.md) - итераторы
+* [POD-structures, standard layouts](../../../../src/it/code/languages/cpp/pods-and-standard_layouts.md) - легковесные структуры
+* [Casting](../../../../src/it/code/languages/cpp/cast.md) - преобразования
+* [Functional objects and handling](../../../../src/it/code/languages/cpp/functional.md) - функциональные объекты и хэндлеры
+* [Operators overriding](../../../../src/it/code/languages/cpp/operators-overriding.md) - переопределение операторов
+* [Exceptions](../../../../src/it/code/languages/cpp/exceptions.md) - исключения
+* [Macro](../../../../src/it/code/languages/cpp/macro.md) - макросы (не фу)
+* [Rvalue/lvalue](../../../../src/it/code/languages/cpp/rvalue-lvalue.md) - природа значений
+* [RAII](../../../../src/it/code/languages/cpp/raii.md) - обязательная фича по управлению памятью
+* [idioms](../../../../src/it/code/languages/cpp/idioms.md) - идиомы плюсов
+* [Multithreading](../../../../src/it/code/languages/cpp/multithreading.md) - многопоточность
 * STL (Standard Library) - meh
-	* [Forbiden Stl functions ](../../../../src/code/languages/cpp/forbiden-stl-functions.md)
-	* [Algorithms with STL](../../../../src/code/languages/cpp/stl-algorithms.md)
+	* [Forbiden Stl functions ](../../../../src/it/code/languages/cpp/forbiden-stl-functions.md)
+	* [Algorithms with STL](../../../../src/it/code/languages/cpp/stl-algorithms.md)
 ---
 # Boost
 - boost::asio
@@ -62,7 +62,7 @@ aliases:
 Одно из средств документирования кода (потом может ещё сформироваться полезная документация на основе этого)
 * https://www.doxygen.nl/manual/docblocks.html
 # CMake
-[CMake](../../../../src/code/languages/cpp/cmake.md)
+[CMake](../../../../src/it/code/languages/cpp/cmake.md)
 # Когда мы видим С...
 > Довольно часто приходится переписывать или взаимодействовать с С кодом с его ужасной философией древних времён. Стоит помнить некоторые моменты при взаимодейтсвии с ним.
 
