@@ -23,7 +23,6 @@ aliases:
 - [Мышцы, Связки, Сухожилия](../../src/biology/muscles.md)
 - [Пищевой тракт](../../src/biology/digestive_tract.md)
 - [Эндокриника: гормоны и т.п.](../../src/biology/endocrinology.md)
-- TODO: Гормональный контекст 
 - TODO: Кровеносная система
 - TODO: Кожный покров
 - TODO: Скелет
